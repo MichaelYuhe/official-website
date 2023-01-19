@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Shu Uesugi'
-export const siteTitle = 'Temporary'
+export const siteTitle = 'FeatBit'
 
 export default function Layout({ children, home }) {
   return (
