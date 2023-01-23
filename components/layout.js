@@ -3,28 +3,67 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import imgPia from '../public/images/pia.png'
-import drone from '../public/images/hero-drone.webp'
 
-export const siteTitle = 'FeatBit'
+const name = 'Shu Uesugi'
+export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
   return (
-      <div>
-          <Image className={styles.drone} src={drone} width={140}></Image>
-          <Image className={styles.planet} src={imgPia} width={500}></Image>
-          <div className={styles.container}>
-              <Head>
-                  <link rel="icon" href="/favicon.svg" />
-                  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                  <meta
-                      name="description"
-                      content="FeatBit feature flags feature toggle progressive experiment AB testing"
-                  />
-                  <meta name="og:title" content={siteTitle} />
-              </Head>
-              <main>{children}</main>
-          </div>
-      </div>
+    <div className={styles.container}>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Learn how to build a personal website using Next.js"
+        />
+        <meta
+          property="og:image"
+          content={`https://og-image.vercel.app/${encodeURI(
+            siteTitle
+          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+        />
+        <meta name="og:title" content={siteTitle} />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
+      <header className={styles.header}>
+        {home ? (
+          <>
+            <Image
+              priority
+              src="/images/profile.jpg"
+              className={utilStyles.borderCircle}
+              height={144}
+              width={144}
+              alt={name}
+            />
+            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+          </>
+        ) : (
+          <>
+            <Link href="/">
+              <Image
+                priority
+                src="/images/profile.jpg"
+                className={utilStyles.borderCircle}
+                height={108}
+                width={108}
+                alt={name}
+              />
+            </Link>
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/" className={utilStyles.colorInherit}>
+                {name}
+              </Link>
+            </h2>
+          </>
+        )}
+      </header>
+      <main>{children}</main>
+      {!home && (
+        <div className={styles.backToHome}>
+          <Link href="/">← Back to home</Link>
+        </div>
+      )}
+    </div>
   )
 }
