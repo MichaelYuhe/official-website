@@ -6,7 +6,7 @@
   text-align: right;
 }
 
-.faceFirstLine, .faceSecondLine, .faceThirdLine {
+.faceFirstLine, .faceSecondLine, .faceThirdLine, .faceFourthLine {
   font-size: 3rem;
   font-weight: 900;
   display: flex;
@@ -24,4 +24,15 @@
 
 .faceThirdLine {
   color: $cyan-500
+}
+
+.faceFourthLine {
+
+}
+
+.githubBtn {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  gap: 0.5rem
 }

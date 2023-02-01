@@ -2,6 +2,7 @@ import Layout from '../components/layout/layout'
 import utilStyles from '../styles/utils.module.scss'
 import { useState, useEffect } from "react";
 import styles from "./index.module.scss";
+import Link from "next/link";
 
 const Alternative = () => {
   const alternatives = ['LaunchDarkly', 'Unleash'];
@@ -21,7 +22,7 @@ export default function Home() {
   return (
     <Layout>
       <section className={utilStyles.headingMd}>
-        <div className={`${styles.faceFirstLine}`}>
+        <div className={`${styles.faceFirstLine} mt-5`}>
           <div>Open Source,</div>
           <div>Scalable,</div>
           <div>High Performance</div>
@@ -31,8 +32,14 @@ export default function Home() {
           <Alternative></Alternative>
           <div>Alternative</div>
         </div>
-        <div></div>
-        <div></div>
+        <div className={`${styles.faceFourthLine} mt-4`}>
+          <Link href="https://github.com/featbit/featbit" target="_blank">
+            <button type="button" className={`btn btn-primary ${styles.githubBtn}`}>
+              <i className="bi bi-github"></i>
+              Check Github
+            </button>
+          </Link>
+        </div>
       </section>
     </Layout>
   )
