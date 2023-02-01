@@ -1,4 +1,4 @@
-import styles from './layout.module.css'
+import styles from './layout.module.scss'
 import Image from 'next/image'
 import logoImg from '/public/images/logo.svg'
 import Link from "next/link";
@@ -41,6 +41,23 @@ export default function Layout({children}) {
                 </nav>
             </header>
             <main className={`container-xxl ${styles.container}`}>{children}</main>
+            <footer className="bd-footer py-2 py-md-3 mt-3 bg-light bg-gradient">
+                <div className={`${styles.container} container-xxl`}>
+                    <div className={`${styles.communityTitle} mb-5`}>
+                        Join Our Community
+                    </div>
+                    <div className={`${styles.communities} `}>
+                        <Link className={`${styles.community} textLink p-2`} href="https://github.com/featbit/featbit" target="_blank">
+                            <i className={`bi bi-github ${styles.communityIcon}`}></i>
+                            <span>Github</span>
+                        </Link>
+                        <Link className={`${styles.community} textLink p-2`} href="https://join.slack.com/t/featbit/shared_invite/zt-1ew5e2vbb-x6Apan1xZOaYMnFzqZkGNQ" target="_blank">
+                            <i className={`bi bi-slack ${styles.communityIcon}`}></i>
+                            <span>Slack</span>
+                        </Link>
+                    </div>
+                </div>
+            </footer>
         </>
     );
 }
