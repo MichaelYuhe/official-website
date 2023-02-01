@@ -1,11 +1,14 @@
 import Layout from "../components/layout/layout";
-import utilStyles from "../styles/utils.module.css";
-import styles from "./blogs.module.css";
-import Link from "next/link";
+import utilStyles from "../styles/utils.module.scss";
+import styles from "./blogs.module.scss";
 import Date from "../components/date";
 import {getSortedBlogsMetaData} from "../lib/blogs";
+import Link from "next/link";
+import { useRouter } from 'next/router'
 
 export default function Blogs({ metaData }) {
+
+
     const tagsWithCount = metaData.reduce((acc, cur) => {
         cur.tags.forEach((tag) => {
             acc[tag] = acc[tag] || 0;
@@ -17,39 +20,48 @@ export default function Blogs({ metaData }) {
 
     const tags = Object.keys(tagsWithCount).sort();
 
+    const { tag } = useRouter().query;
+
+    if (tag) {
+        metaData = metaData.filter((meta) => meta.tags.includes(tag));
+    }
+
     return (
         <Layout>
-            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+            <section className={`${utilStyles.padding1px}`}>
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-sm-12 col-md-3">
                         <h2 className={utilStyles.headingLg}>Tags</h2>
                         <ul className={`${utilStyles.list} list-group`}>
-                            {tags.map((tag) => (
-                                <li className={`${styles.blogItem} list-group-item`}>
-                                    <span>{tag}</span>
-                                    <span>{tagsWithCount[tag]}</span>
-                                </li>
+                            {tags.map((t) => (
+                                <Link className="textLink" href={{ pathname: '/blogs', query: { tag: t} }}>
+                                    <li className={`${styles.tagItem} list-group-item ${tag === t ? styles.tagItemActive : ''}`}>
+                                        <span>{t}</span>
+                                        <span>{tagsWithCount[t]}</span>
+                                    </li>
+                                </Link>
                             ))
                             }
                         </ul>
                     </div>
-                    <div className="col">
+                    <div className={`col ${styles.blogList}`}>
                         <ul className={utilStyles.list}>
                             {metaData.map(({ id, date, title, cover }) => (
-                                <li className={`${utilStyles.listItem} row ${styles.blogItem}`} key={id}>
-                                    <div className="col-1">
-                                        <img  src={cover}/>
-                                    </div>
+                                <Link className="textLink" href={`/blogs/${id}`}>
+                                    <li className={`${utilStyles.listItem} row ${styles.blogItem}`} key={id}>
+                                        <div className="col-sm-1 col-md-2">
+                                            <img src={cover}/>
+                                        </div>
 
-                                    <div className="col">
-                                        <Link className="textLink" href={`/blogs/${id}`}>{title}</Link>
-                                        <br />
-                                        <small className={utilStyles.lightText}>
-                                            <Date dateString={date} />
-                                        </small>
-                                    </div>
+                                        <div className="col">
+                                            <div className={`${styles.blogTitle}`} href={`/blogs/${id}`}>{title}</div>
+                                            <small className={utilStyles.lightText}>
+                                                <Date dateString={date} />
+                                            </small>
+                                        </div>
 
-                                </li>
+                                    </li>
+                                </Link>
                             ))}
                         </ul>
                     </div>

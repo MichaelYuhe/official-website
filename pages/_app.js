@@ -1,6 +1,6 @@
 // add bootstrap css
 import 'bootstrap/dist/css/bootstrap.css'
-import '../styles/global.css'
+import '../styles/global.scss'
 
 import { useEffect } from 'react';
 import Header from "../components/header/header";
