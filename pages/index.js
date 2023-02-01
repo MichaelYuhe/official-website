@@ -33,7 +33,7 @@ export default function Home() {
           <div>Alternative</div>
         </div>
         <div className={`${styles.faceFourthLine} mt-4`}>
-          <Link href="https://github.com/featbit/featbit" target="_blank">
+          <Link href="https://github.com/featbit/featbit" target="_blank" className='textLink'>
             <button type="button" className={`btn btn-primary ${styles.githubBtn}`}>
               <i className="bi bi-github"></i>
               Check Github
