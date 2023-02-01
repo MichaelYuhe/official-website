@@ -32,8 +32,8 @@ export default function Layout({children}) {
                         </ul>
                         <ul className="navbar-nav ms-md-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link" href="https://github.com/featbit/featbit" target="_blank">
-                                    <i className="bi bi-github"></i>
+                                <Link className={`nav-link`} href="https://github.com/featbit/featbit" target="_blank">
+                                    <i className={`bi bi-github ${styles.navIcon}`}></i>
                                 </Link>
                             </li>
                         </ul>
