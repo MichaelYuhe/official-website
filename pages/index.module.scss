@@ -1,0 +1,27 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+.alter {
+  width: 360px;
+  text-align: right;
+}
+
+.faceFirstLine, .faceSecondLine, .faceThirdLine {
+  font-size: 3rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.faceFirstLine {
+
+}
+
+.faceSecondLine {
+
+}
+
+.faceThirdLine {
+  color: $cyan-500
+}

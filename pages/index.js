@@ -1,19 +1,38 @@
 import Layout from '../components/layout/layout'
 import utilStyles from '../styles/utils.module.scss'
+import { useState, useEffect } from "react";
+import styles from "./index.module.scss";
+
+const Alternative = () => {
+  const alternatives = ['LaunchDarkly', 'Unleash'];
+  const [alterIdx, setAlterIdx] = useState(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      const idx = (alterIdx + 1) % alternatives.length;
+      setAlterIdx(idx);
+    }, 3000);
+  }, [alterIdx]);
+
+  return <div className={styles.alter}>{alternatives[alterIdx]}</div>;
+};
 
 export default function Home() {
   return (
     <Layout>
       <section className={utilStyles.headingMd}>
-        <p>
-          Hello, I’m <strong>Shu</strong>. I’m a software engineer and a
-          translator (English/Japanese). You can contact me on{' '}
-          <a href="https://twitter.com/chibicode">Twitter</a>.
-        </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <div className={`${styles.faceFirstLine}`}>
+          <div>Open Source,</div>
+          <div>Scalable,</div>
+          <div>High Performance</div>
+        </div>
+        <div className={styles.faceSecondLine}>Feature Management</div>
+        <div className={styles.faceThirdLine}>
+          <Alternative></Alternative>
+          <div>Alternative</div>
+        </div>
+        <div></div>
+        <div></div>
       </section>
     </Layout>
   )
