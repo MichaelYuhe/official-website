@@ -2,8 +2,12 @@ import styles from './layout.module.scss'
 import Image from 'next/image'
 import logoImg from '/public/images/logo.svg'
 import Link from "next/link";
+import {useRouter} from "next/router";
 
 export default function Layout({children}) {
+    const { pathname } = useRouter();
+    const year = (new Date()).getFullYear();
+
     return (
         <>
             <header className="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-dark navbar-dark">
@@ -16,7 +20,7 @@ export default function Layout({children}) {
                             alt="FeatBit"
                         />
                     </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -24,10 +28,10 @@ export default function Layout({children}) {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active" href="/">Home</Link>
+                                <Link className={`nav-link ${ pathname === '/' ? 'active' : ''}`} href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="/blogs">Blogs</Link>
+                                <Link className={`nav-link ${ pathname.startsWith('/blogs') ? 'active' : ''}`} href="/blogs">Blogs</Link>
                             </li>
                         </ul>
                         <ul className="navbar-nav ms-md-auto mb-2 mb-lg-0">
@@ -36,14 +40,19 @@ export default function Layout({children}) {
                                     <i className={`bi bi-github ${styles.navIcon}`}></i>
                                 </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link`} href="https://join.slack.com/t/featbit/shared_invite/zt-1ew5e2vbb-x6Apan1xZOaYMnFzqZkGNQ" target="_blank">
+                                    <i className={`bi bi-slack ${styles.navIcon}`}></i>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>
             </header>
             <main className={`container-xxl ${styles.container}`}>{children}</main>
-            <footer className="bd-footer py-2 py-md-3 mt-3 bg-light bg-gradient">
+            <footer className="bd-footer py-3 py-md-4 mt-4 bg-light bg-gradient">
                 <div className={`${styles.container} container-xxl`}>
-                    <div className={`${styles.communityTitle} mb-5`}>
+                    <div className={`${styles.communityTitle} mb-2`}>
                         Join Our Community
                     </div>
                     <div className={`${styles.communities} `}>
@@ -56,6 +65,9 @@ export default function Layout({children}) {
                             <span>Slack</span>
                         </Link>
                     </div>
+                </div>
+                <div className={`${styles.container} ${styles.copyright} container-xxl`}>
+                    Copyright © {year} FeatBit
                 </div>
             </footer>
         </>

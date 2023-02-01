@@ -2,7 +2,7 @@
 @import "../../node_modules/bootstrap/scss/variables";
 
 .navIcon {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: $white;
 }
 
@@ -21,7 +21,7 @@
 
 .container {
   padding: 0 1rem;
-  margin: 1rem auto 6rem;
+  margin: 1rem auto 1rem;
 }
 
 .communityTitle {
@@ -56,4 +56,8 @@
 .communityIcon {
   font-size: 1.5rem;
   color: $cyan-500;
+}
+
+.copyright {
+  text-align: center;
 }
