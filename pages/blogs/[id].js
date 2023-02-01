@@ -3,6 +3,7 @@ import { getAllBlogIds, getBlogData } from '../../lib/blogs'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.scss'
+import styles from "./blog.module.scss";
 
 export default function Post({ postData }) {
   return (
@@ -12,10 +13,10 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
+        <div className={`${utilStyles.lightText}`}>
           <Date dateString={postData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className={`${styles.blogContainer}`} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   )

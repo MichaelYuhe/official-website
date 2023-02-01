@@ -34,8 +34,8 @@ export default function Blogs({ metaData }) {
                         <h2 className={utilStyles.headingLg}>Tags</h2>
                         <ul className={`${utilStyles.list} list-group`}>
                             {tags.map((t) => (
-                                <Link className="textLink" href={{ pathname: '/blogs', query: { tag: t} }}>
-                                    <li className={`${styles.tagItem} list-group-item ${tag === t ? styles.tagItemActive : ''}`}>
+                                <Link key={tag} className="textLink" href={{ pathname: '/blogs', query: { tag: t} }}>
+                                    <li key={tag} className={`${styles.tagItem} list-group-item ${tag === t ? styles.tagItemActive : ''}`}>
                                         <span>{t}</span>
                                         <span>{tagsWithCount[t]}</span>
                                     </li>
@@ -47,9 +47,9 @@ export default function Blogs({ metaData }) {
                     <div className={`col ${styles.blogList}`}>
                         <ul className={utilStyles.list}>
                             {metaData.map(({ id, date, title, cover }) => (
-                                <Link className="textLink" href={`/blogs/${id}`}>
+                                <Link key={id} className="textLink" href={`/blogs/${id}`} >
                                     <li className={`${utilStyles.listItem} row ${styles.blogItem}`} key={id}>
-                                        <div className="col-sm-1 col-md-2">
+                                        <div className="col-sm-1 col-md-2 col-lg-1">
                                             <img src={cover}/>
                                         </div>
 
