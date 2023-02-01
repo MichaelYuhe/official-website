@@ -43,12 +43,12 @@ export default function Blogs({ metaData }) {
                             }
                         </ul>
                     </div>
-                    <div className={`col ${styles.blogList}`}>
+                    <div className={`col mt-md-2`}>
                         <ul className={utilStyles.list}>
                             {metaData.map(({ id, date, title, cover }) => (
                                 <Link key={id} className="textLink" href={`/blogs/${id}`} >
                                     <li className={`${utilStyles.listItem} row ${styles.blogItem}`} key={id}>
-                                        <div className="col-sm-1 col-md-2 col-lg-1">
+                                        <div className="col-sm-1 col-md-2 col-lg-1 mb-2 mt-2">
                                             <img src={cover}/>
                                         </div>
 
