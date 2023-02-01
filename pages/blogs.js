@@ -8,7 +8,6 @@ import { useRouter } from 'next/router'
 
 export default function Blogs({ metaData }) {
 
-
     const tagsWithCount = metaData.reduce((acc, cur) => {
         cur.tags.forEach((tag) => {
             acc[tag] = acc[tag] || 0;
@@ -33,9 +32,10 @@ export default function Blogs({ metaData }) {
                     <div className="col-sm-12 col-md-3">
                         <h2 className={utilStyles.headingLg}>Tags</h2>
                         <ul className={`${utilStyles.list} list-group`}>
-                            {tags.map((t) => (
-                                <Link key={tag} className="textLink" href={{ pathname: '/blogs', query: { tag: t} }}>
-                                    <li key={tag} className={`${styles.tagItem} list-group-item ${tag === t ? styles.tagItemActive : ''}`}>
+                            <div>{tags.length}</div>
+                            {tags.map((t, idx) => (
+                                <Link key={idx} className="textLink" href={{ pathname: '/blogs', query: { tag: t} }}>
+                                    <li key={idx} className={`${styles.tagItem} list-group-item ${tag === t ? styles.tagItemActive : ''}`}>
                                         <span>{t}</span>
                                         <span>{tagsWithCount[t]}</span>
                                     </li>
