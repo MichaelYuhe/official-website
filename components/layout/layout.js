@@ -24,13 +24,16 @@ export default function Layout({children}) {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active" href="/">
-                                    Home
-                                </Link>
+                                <Link className="nav-link active" href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="/blogs">
-                                    Blogs
+                                <Link className="nav-link" href="/blogs">Blogs</Link>
+                            </li>
+                        </ul>
+                        <ul className="navbar-nav ms-md-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link" href="https://github.com/featbit/featbit" target="_blank">
+                                    <i className="bi bi-github"></i>
                                 </Link>
                             </li>
                         </ul>
