@@ -32,7 +32,6 @@ export default function Blogs({ metaData }) {
                     <div className="col-sm-12 col-md-3">
                         <h2 className={utilStyles.headingLg}>Tags</h2>
                         <ul className={`${utilStyles.list} list-group`}>
-                            <div>{tags.length}</div>
                             {tags.map((t, idx) => (
                                 <Link key={idx} className="textLink" href={{ pathname: '/blogs', query: { tag: t} }}>
                                     <li key={idx} className={`${styles.tagItem} list-group-item ${tag === t ? styles.tagItemActive : ''}`}>
