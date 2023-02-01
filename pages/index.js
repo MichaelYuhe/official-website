@@ -3,6 +3,8 @@ import utilStyles from '../styles/utils.module.scss'
 import { useState, useEffect } from "react";
 import styles from "./index.module.scss";
 import Link from "next/link";
+import Image from "next/image";
+import flagList from "../public/images/flag_list.png"
 
 const Alternative = () => {
   const alternatives = ['LaunchDarkly', 'Unleash'];
@@ -39,6 +41,16 @@ export default function Home() {
               Check Github
             </button>
           </Link>
+        </div>
+      </section>
+      <section className={`${styles.section} mt-md-5 py-3 py-md-4`}>
+        <div className={'h1 mb-4'}>Empower all teams</div>
+        <div>
+          FeatBit provides a holistic framework that enables all teams to use flags and do experimentation on a massive scale across various use cases.
+          SDKs are built carefully for devs and the easy-to-use interface makes PMs powerful and happy.
+        </div>
+        <div className={`mt-5 ${styles.imgContainer}`}>
+          <Image className={`w-100 h-auto`} src={flagList}></Image>
         </div>
       </section>
     </Layout>
