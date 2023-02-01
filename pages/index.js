@@ -1,10 +1,7 @@
 import Layout from '../components/layout/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getSortedBlogsData } from '../lib/blogs'
-import Link from 'next/link'
-import Date from '../components/date'
 
-export default function Home({ allPostsData }) {
+export default function Home() {
   return (
     <Layout>
       <section className={utilStyles.headingMd}>
@@ -18,29 +15,6 @@ export default function Home({ allPostsData }) {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/blogs/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
     </Layout>
   )
-}
-
-export async function getStaticProps() {
-  const allPostsData = getSortedBlogsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }
