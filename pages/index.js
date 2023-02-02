@@ -47,8 +47,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section className={``}>
-        <div className={`container-xxl ${styles.section} mt-4 mt-md-5 py-3 py-md-4`}>
+      <section className={`${styles.section1}`}>
+        <div className={`container-xxl ${styles.section} mt-4 mt-md-5 py-4 py-md-5`}>
           <div className={'h1 mb-4'}>Open source feature management and experimentation platform</div>
           <div className={`row mt-4`}>
             <div className={`card border-0 col-md-3 col-sm-12`}>
@@ -81,8 +81,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={``}>
-        <div className={`container-xxl ${styles.section} mt-md-5 py-3 py-md-4`}>
+      <section className={`${styles.section2}`}>
+        <div className={`container-xxl ${styles.section} py-4 py-md-5`}>
           <div className={'h1 mb-4'}>On-Premise and upcoming Cloud solution</div>
           <div>
             <div>The on-premise option gives you the whole freedom to install FeatBit in any environment, you keep all control and own all your data.</div>
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </section>
       <section className={``}>
-        <div className={`container-xxl ${styles.section} mt-md-5 py-3 py-md-4`}>
+        <div className={`container-xxl ${styles.section} py-3 py-md-4`}>
           <div className={'h1 mb-4'}>Empower all teams</div>
           <div>
             FeatBit provides a holistic framework that enables all teams to use flags and do experimentation across multiple platforms.
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
       </section>
       <section className={``}>
-        <div className={`container-xxl ${styles.section} mt-md-5 py-3 py-md-4`}>
+        <div className={`container-xxl ${styles.section} py-3 py-md-4`}>
           <div className={'mb-4'}>SDKS BUILT FOR DEVELOPERS</div>
           <div className={'h2 mb-4'}>Think for developers</div>
           <div>
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
       </section>
       <section className={``}>
-        <div className={`container-xxl ${styles.section} mt-md-5 py-3 py-md-4`}>
+        <div className={`container-xxl ${styles.section} py-3 py-md-4`}>
           <div className={'mb-4'}>QA TEAMS</div>
           <div className={'h2 mb-4'}>Test in production</div>
           <div>
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </section>
       <section className={``}>
-        <div className={`container-xxl ${styles.section} mt-md-5 py-3 py-md-4`}>
+        <div className={`container-xxl ${styles.section} py-3 py-md-4`}>
           <div className={'mb-4'}>PRODUCT TEAMS</div>
           <div className={'h2 mb-4'}>Progressive release and enterprise ready experimentation</div>
           <div>
@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </section>
       <section className={``}>
-        <div className={`container-xxl ${styles.section} mt-md-5 py-3 py-md-4`}>
+        <div className={`container-xxl ${styles.section} py-3 py-md-4`}>
           <div className={'mb-4'}>INSIGHTS</div>
           <div className={'h2 mb-4'}>Understand how your users use your APP</div>
           <div>
