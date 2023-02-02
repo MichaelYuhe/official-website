@@ -47,6 +47,38 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <section className={`${styles.section} mt-4 mt-md-5 py-3 py-md-4`}>
+        <div className={'h1 mb-4'}>Open source feature management and experimentation platform</div>
+        <div className={`row mt-4`}>
+          <div className={`card border-0 col-md-3 col-sm-12`}>
+            <div className="card-body">
+              <h5 className="card-title">Multi-platform supports</h5>
+              <p className="card-text">FeatBit makes it easy to manage features across web, mobile and server-side applications.</p>
+            </div>
+          </div>
+          <div className={`card border-0 col-md-3 col-sm-12`}>
+            <div className="card-body">
+              <h5 className="card-title">Release confidently</h5>
+              <p className="card-text">
+                Decouple releases from deployments with feature flags.
+                Our SDKs are built for extreme speed, flexibility, and security.
+              </p>
+            </div>
+          </div>
+          <div className={`card border-0 col-md-3 col-sm-12`}>
+            <div className="card-body">
+              <h5 className="card-title">Entitlement</h5>
+              <p className="card-text">Manage the subscription to your APP with a easy and automatic way.</p>
+            </div>
+          </div>
+          <div className={`card border-0 col-md-3 col-sm-12`}>
+            <div className="card-body">
+              <h5 className="card-title">A/B and Experimentation</h5>
+              <p className="card-text">Multivariate flags gives you the ability to do A/B/n testing and experimentation.</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className={`${styles.section} mt-md-5 py-3 py-md-4`}>
         <div className={'h1 mb-4'}>On-Premise and upcoming Cloud solution</div>
         <div>
