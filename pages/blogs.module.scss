@@ -43,3 +43,13 @@
 .blogItemCover{
     width: 180px;
 }
+
+.badgeWrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.badgeText {
+    color: $white !important;
+}

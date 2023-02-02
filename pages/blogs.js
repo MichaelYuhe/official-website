@@ -45,7 +45,7 @@ export default function Blogs({ metaData }) {
                     </div>
                     <div className={`col mt-md-2`}>
                         <ul className={utilStyles.list}>
-                            {metaData.map(({ id, date, title, cover }) => (
+                            {metaData.map(({ id, date, title, cover, tags }) => (
                                 <Link key={id} className="textLink" href={`/blogs/${id}`} >
                                     <li className={`${utilStyles.listItem} row ${styles.blogItem}`} key={id}>
                                         <div className="col-sm-1 col-md-2 col-lg-1 mb-2 mt-2">
@@ -54,6 +54,11 @@ export default function Blogs({ metaData }) {
 
                                         <div className="col">
                                             <div className={`${styles.blogTitle}`} href={`/blogs/${id}`}>{title}</div>
+                                            <div className={`${styles.badgeWrapper}`}>
+                                                {tags.map((tag) => (
+                                                    <span className={`badge text-bg-info ${styles.badgeText}`}>{tag}</span>
+                                                ))}
+                                            </div>
                                             <small className={utilStyles.lightText}>
                                                 <Date dateString={date} />
                                             </small>
