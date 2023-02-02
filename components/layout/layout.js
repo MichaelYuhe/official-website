@@ -49,7 +49,7 @@ export default function Layout({children}) {
                     </div>
                 </nav>
             </header>
-            <main className={`container-xxl ${styles.container}`}>{children}</main>
+            <main className={`${styles.container}`}>{children}</main>
             <footer className="bd-footer py-3 py-md-4 mt-4 bg-light bg-gradient">
                 <div className={`${styles.container} container-xxl`}>
                     <div className={`${styles.communityTitle} mb-2`}>
