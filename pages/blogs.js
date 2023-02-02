@@ -27,7 +27,7 @@ export default function Blogs({ metaData }) {
 
     return (
         <Layout>
-            <section className={`${utilStyles.padding1px}`}>
+            <section className={`container-xxl`}>
                 <div className="row">
                     <div className="col-sm-12 col-md-3">
                         <h2 className={utilStyles.headingLg}>Tags</h2>
