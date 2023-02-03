@@ -50,7 +50,6 @@ export default function Home() {
       </section>
       <section className={`${styles.section1}`}>
         <div className={`container-xxl ${styles.section} mt-4 mt-md-5 py-4 py-md-5`}>
-          <div className={'h1 mb-4'}>Open source feature management and experimentation platform</div>
           <div className={`row mt-4`}>
             <div className={`card border-0 col-md-3 col-sm-12`}>
               <div className="card-body">
@@ -88,6 +87,15 @@ export default function Home() {
           <div>
             <div>The on-premise option gives you the whole freedom to install FeatBit in any environment, you keep all control and own all your data.</div>
             <div>And the upcoming cloud solution makes it even easier to use with reasonable cost for small teams which don't have enough resources to maintain the system.</div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.section2}`}>
+        <div className={`container-xxl ${styles.section} py-4 py-md-5`}>
+          <div className={'h1 mb-4'}>Scalable and high performance</div>
+          <div>
+            <div>FeatBit is built based on micro-services, its horizontally scalable feature and our carefully designed architecture ensures a high performance solution.</div>
+            {/*<div>Check the <Link href="xxx" target="_blank">performance report</Link></div>*/}
           </div>
         </div>
       </section>
