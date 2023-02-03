@@ -10,7 +10,7 @@ export default function Layout({children}) {
 
     return (
         <>
-            <header className="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-dark navbar-dark">
+            <header className={`navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-dark ${styles.navBg}`}>
                 <nav className="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
                     <a className={`navbar-brand ${styles.logoBrand}`} href="/">
                         <Image
@@ -28,10 +28,10 @@ export default function Layout({children}) {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className={`nav-link ${ pathname === '/' ? 'active' : ''}`} href="/">Home</Link>
+                                <Link className={`nav-link ${styles.navLink} ${ pathname === '/' ? styles.navLinkActive + " active" : ''}`} href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`nav-link ${ pathname.startsWith('/blogs') ? 'active' : ''}`} href="/blogs">Blog</Link>
+                                <Link className={`nav-link ${styles.navLink} ${ pathname.startsWith('/blogs') ? styles.navLinkActive + " active" : ''}`} href="/blogs">Blog</Link>
                             </li>
                         </ul>
                         <ul className="navbar-nav ms-md-auto mb-2 mb-lg-0">
