@@ -1,0 +1,80 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+.navBg {
+  background-color: $pink-500;
+}
+
+.navLink {
+  color: rgba(255, 255, 255);
+}
+
+.navLinkActive {
+  color: rgba(255, 255, 255);
+  font-weight: 800;
+}
+
+.navIcon {
+  font-size: 1.2rem;
+  color: $white;
+}
+
+.togglerIcon {
+  font-size: 1.2rem;
+}
+
+.logoBrand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  color: #FFF;
+}
+
+.logoBrand:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0;
+  margin: 1rem auto 1rem;
+}
+
+.communityTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.communities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.community {
+  font-size: 0.8rem;
+  font-weight: 550;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $gray-300;
+  }
+}
+
+.communityIcon {
+  font-size: 1.5rem;
+  color: $cyan-500;
+}
+
+.copyright {
+  text-align: center;
+}

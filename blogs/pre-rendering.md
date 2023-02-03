@@ -1,8 +1,11 @@
 ---
 title: 'Two Forms of Pre-rendering'
 date: '2022-01-01'
+cover: '/images/pia2.png'
+tags: ['tag1', 'tag2', 'tag3']
 ---
 
+[//]: # (![my image]&#40;/images/pia2.png&#41;)
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
 
 - **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.

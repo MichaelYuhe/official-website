@@ -1,8 +1,10 @@
 ---
 title: 'When to Use Static Generation v.s. Server-side Rendering'
 date: '2022-01-02'
+cover: '/images/lacerta.jpg'
+tags: ['markdown1 awef', 'code', 'features', 'tag1']
 ---
-
+<a style="text-decoration:none" href="https://featbit.co" target="_blank">Here is a link</a>
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
 
 You can use Static Generation for many types of pages, including:

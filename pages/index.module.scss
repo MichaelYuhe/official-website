@@ -1,0 +1,76 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+.alter {
+  width: 360px;
+  text-align: right;
+}
+
+.faceFirstLine, .faceSecondLine, .faceThirdLine, .faceFourthLine {
+  font-size: 3rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+}
+
+@media (max-width: 576px) {
+  .faceFirstLine, .faceSecondLine, .faceThirdLine {
+    font-size: 2.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  .alter {
+    width: 360px;
+    text-align: center;
+  }
+}
+
+
+.faceFirstLine {
+
+}
+
+.faceSecondLine {
+
+}
+
+.faceThirdLine {
+  color: $cyan-500
+}
+
+.faceFourthLine {
+
+}
+
+.githubBtn {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  gap: 0.5rem
+}
+
+.section {
+  text-align: center;
+}
+
+.section1 {
+
+}
+
+.section2 {
+
+}
+
+.imgContainer {
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.featureTitle {
+
+}
+
+.featureDesc {
+
+}
