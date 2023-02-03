@@ -3,7 +3,6 @@ import Image from 'next/image'
 import logoImg from '/public/images/logo.svg'
 import Link from "next/link";
 import {useRouter} from "next/router";
-import Script from "next/script";
 
 export default function Layout({children}) {
     const { pathname } = useRouter();
@@ -11,16 +10,6 @@ export default function Layout({children}) {
 
     return (
         <>
-            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY6C6DXDBW"/>
-            <Script id="google-analytics" strategy="afterInteractive">
-                {`
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){window.dataLayer.push(arguments);}
-                  gtag('js', new Date());
-        
-                  gtag('config', 'G-ZY6C6DXDBW');
-                `}
-            </Script>
             <header className={`navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-dark ${styles.navBg}`}>
                 <nav className="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
                     <a className={`navbar-brand ${styles.logoBrand}`} href="/">
