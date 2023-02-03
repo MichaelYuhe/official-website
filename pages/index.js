@@ -29,11 +29,12 @@ export default function Home() {
     <Layout>
       <section className={`container-xxl`}>
         <div className={`${styles.faceFirstLine} mt-5`}>
-          <div>Open Source,</div>
-          <div>Scalable,</div>
-          <div>High Performance</div>
+          <div>Open Source</div>
         </div>
-        <div className={styles.faceSecondLine}>Feature Management</div>
+        <div className={styles.faceSecondLine}>
+          <div>Feature Management</div>
+          <div>Experimentation</div>
+        </div>
         <div className={styles.faceThirdLine}>
           <Alternative></Alternative>
           <div>Alternative</div>
