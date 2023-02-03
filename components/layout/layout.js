@@ -31,7 +31,7 @@ export default function Layout({children}) {
                                 <Link className={`nav-link ${ pathname === '/' ? 'active' : ''}`} href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`nav-link ${ pathname.startsWith('/blogs') ? 'active' : ''}`} href="/blogs">Blogs</Link>
+                                <Link className={`nav-link ${ pathname.startsWith('/blogs') ? 'active' : ''}`} href="/blogs">Blog</Link>
                             </li>
                         </ul>
                         <ul className="navbar-nav ms-md-auto mb-2 mb-lg-0">
