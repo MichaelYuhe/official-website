@@ -1,5 +1,4 @@
 import Layout from '../components/layout/layout'
-import utilStyles from '../styles/utils.module.scss'
 import { useState, useEffect } from "react";
 import styles from "./index.module.scss";
 import Link from "next/link";
@@ -27,7 +26,7 @@ const Alternative = () => {
 export default function Home() {
   return (
     <Layout>
-      <section className={`container-xxl`}>
+      <section>
         <div className={`${styles.faceFirstLine} mt-5`}>
           <div>Open Source</div>
         </div>
