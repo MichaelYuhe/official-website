@@ -28,11 +28,10 @@ export default function Home() {
     <Layout>
       <section>
         <div className={`${styles.faceFirstLine} mt-5`}>
-          <div>Open Source</div>
+          Scalable, High Performance, 100% Open Source
         </div>
         <div className={styles.faceSecondLine}>
-          <div>Feature Management</div>
-          <div>Experimentation</div>
+          Feature Management Platform
         </div>
         <div className={styles.faceThirdLine}>
           <Alternative></Alternative>
@@ -50,31 +49,31 @@ export default function Home() {
       <section className={`${styles.section1}`}>
         <div className={`container-xxl ${styles.section} mt-4 mt-md-5 py-4 py-md-5`}>
           <div className={`row mt-4`}>
-            <div className={`card border-0 col-md-3 col-sm-12`}>
-              <div className="card-body">
-                <h5 className="card-title">Multi-platform supports</h5>
-                <p className="card-text">FeatBit makes it easy to manage features across web, mobile and server-side applications.</p>
+            <div className={`col-md-3 col-sm-12`}>
+              <div className="">
+                <h5 className="">Multi-platform supports</h5>
+                <p className="">FeatBit makes it easy to manage features across web, mobile and server-side applications.</p>
               </div>
             </div>
-            <div className={`card border-0 col-md-3 col-sm-12`}>
-              <div className="card-body">
-                <h5 className="card-title">Release confidently</h5>
-                <p className="card-text">
+            <div className={`col-md-3 col-sm-12`}>
+              <div className="">
+                <h5 className="">Release confidently</h5>
+                <p className="">
                   Decouple releases from deployments with feature flags.
                   Our SDKs are built for extreme speed, flexibility, and security.
                 </p>
               </div>
             </div>
-            <div className={`card border-0 col-md-3 col-sm-12`}>
-              <div className="card-body">
-                <h5 className="card-title">Entitlement</h5>
-                <p className="card-text">Manage the subscription to your APP with a easy and automatic way.</p>
+            <div className={`col-md-3 col-sm-12`}>
+              <div className="">
+                <h5 className="">Entitlement</h5>
+                <p className="">Manage the subscription to your APP with a easy and automatic way.</p>
               </div>
             </div>
-            <div className={`card border-0 col-md-3 col-sm-12`}>
-              <div className="card-body">
-                <h5 className="card-title">A/B and Experimentation</h5>
-                <p className="card-text">Multivariate flags gives you the ability to do A/B/n testing and experimentation.</p>
+            <div className={`col-md-3 col-sm-12`}>
+              <div className="">
+                <h5 className="">A/B and Experimentation</h5>
+                <p className="">Multivariate flags gives you the ability to do A/B/n testing and experimentation.</p>
               </div>
             </div>
           </div>

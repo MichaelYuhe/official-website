@@ -30,9 +30,9 @@ export default function Layout({children}) {
                             <li className="nav-item">
                                 <Link className={`nav-link ${styles.navLink} ${ pathname === '/' ? styles.navLinkActive + " active" : ''}`} href="/">Home</Link>
                             </li>
-                            {/*<li className="nav-item">*/}
-                            {/*    <Link className={`nav-link ${styles.navLink} ${ pathname.startsWith('/blogs') ? styles.navLinkActive + " active" : ''}`} href="/blogs">Blog</Link>*/}
-                            {/*</li>*/}
+                            <li className="nav-item">
+                                <Link className={`nav-link ${styles.navLink} ${ pathname.startsWith('/blogs') ? styles.navLinkActive + " active" : ''}`} href="/blogs">Blog</Link>
+                            </li>
                             <li className="nav-item">
                                 <Link className={`nav-link ${styles.navLink}`} target="_blank" href="https://featbit.gitbook.io/">Docs</Link>
                             </li>

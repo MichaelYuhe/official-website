@@ -11,8 +11,8 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className={`container-xxl`}>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+      <article className={`container-xxl ${styles.articleContainer}`} > 
+        <h1 className={utilStyles.headingXl + ' ' + styles.blogTitle} >{postData.title}</h1>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
