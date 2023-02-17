@@ -1,6 +1,6 @@
 ---
 title: 'Best Free and Open Source Feature Flag Tools'
-date: '2023-03-14'
+date: '2023-02-14'
 cover: '/images/blogs/open-sourece-feature-flag-tools-review/table-flag-targeting.png'
 tags: ['open-source', 'feature-flags']
 ---
