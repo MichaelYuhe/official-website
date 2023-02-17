@@ -29,7 +29,8 @@ export default function App({Component, pageProps}) {
 
     return (
         <>
-            <Header title={'FeatBit'}></Header>
+            <Header title={'FeatBit, 100% open source feature flags management'} 
+                    description={'Open source, Feature flags, Testing in Production, Progressive Delivery, Feature Management, AB Test, Launchdarkly, Unleash'}></Header>
             <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-ZY6C6DXDBW"></Script>
             <Script id="google-analytics" strategy="afterInteractive"
                     dangerouslySetInnerHTML={{

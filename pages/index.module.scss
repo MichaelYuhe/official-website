@@ -6,7 +6,10 @@
   text-align: right;
 }
 
-.faceFirstLine, .faceSecondLine, .faceThirdLine, .faceFourthLine {
+.faceFirstLine,
+.faceSecondLine,
+.faceThirdLine,
+.faceFourthLine {
   font-size: 3rem;
   font-weight: 900;
   display: flex;
@@ -14,38 +17,31 @@
   gap: .5rem;
 }
 
-@media (max-width: 576px) {
-  .faceFirstLine, .faceSecondLine, .faceThirdLine {
-    font-size: 2.5rem;
-    display: block;
-    text-align: center;
-  }
+.subLine {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: gray;
+  text-align: center;
+}
 
-  .alter {
-    width: 360px;
-    text-align: center;
-  }
+.keycontentTitle {
+  font-size: 1.25rem;
 }
 
 
-.faceFirstLine {
+.faceFirstLine {}
 
-}
-
-.faceSecondLine {
-
-}
+.faceSecondLine {}
 
 .faceThirdLine {
   color: $cyan-500
 }
 
-.faceFourthLine {
-
-}
+.faceFourthLine {}
 
 .githubBtn {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   display: flex;
   gap: 0.5rem
@@ -55,22 +51,53 @@
   text-align: center;
 }
 
-.section1 {
+.section1 {}
 
-}
-
-.section2 {
-
-}
+.section2 {}
 
 .imgContainer {
   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 }
 
-.featureTitle {
+.featureTitle {}
+
+.featureDesc {}
+
+.sdkRow {
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 
-.featureDesc {
+.sdkRowLeft {
+  text-align: left;
+  padding-top: 20px;
+}
 
+.sdkRowLeftSecondLine {
+  padding-top: 30px;
+}
+
+@media (max-width: 769px) {
+  .sdkRowLeft {
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  .faceFirstLine,
+  .faceSecondLine,
+  .faceThirdLine {
+    font-size: 2.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  .alter {
+    width: 360px;
+    text-align: center;
+  }
 }

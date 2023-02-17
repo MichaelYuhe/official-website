@@ -29,3 +29,16 @@ img {
     color: $black;
   }
 }
+
+blockquote {
+  background-color: $gray-200;
+  border-left: 3px solid $cyan-200;
+  padding: 0.2rem 1rem 0 1rem;
+  border-radius: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}

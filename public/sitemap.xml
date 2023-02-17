@@ -1,0 +1,31 @@
+<!-- public/sitemap.xml -->
+<xml version="1.0" encoding="UTF-8">
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://www.featbit.co/blogs</loc>
+            <lastmod>2023-02-11</lastmod>
+        </url>
+        <url>
+            <loc>https://featbit.co/blogs</loc>
+            <lastmod>2023-02-11</lastmod>
+        </url>
+        <url>
+            <loc>https://www.featbit.co/</loc>
+            <lastmod>2023-02-11</lastmod>
+        </url>
+        <url>
+            <loc>https://featbit.co/</loc>
+            <lastmod>2023-02-11</lastmod>
+        </url>
+        <url>
+            <loc>https://www.featbit.co/blogs/Advanced-Progressive-Delivery-with-Feature-Flags</loc>
+            <lastmod>2023-02-11</lastmod>
+        </url>
+        <url>
+            <loc>https://www.featbit.co/blogs/Top-Open-Source-Feature-Flag-Tools</loc>
+            <lastmod>2023-02-11</lastmod>
+        </url>
+
+        
+    </urlset>
+</xml>

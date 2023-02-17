@@ -30,8 +30,8 @@ export default function Blogs({ metaData }) {
             <section className={`container-xxl`}>
                 <div className="row">
                     <div className="col-sm-12 col-md-3">
-                        <h2 className={utilStyles.headingLg}>Tags</h2>
-                        <ul className={`${utilStyles.list} list-group`}>
+                        <h2 className={styles.headingLg}>Tags</h2>
+                        <ul className={`${utilStyles.list} list-group ${styles.tabList}`}>
                             {tags.map((t, idx) => (
                                 <Link key={idx} className="textLink" href={{ pathname: '/blogs', query: { tag: t} }}>
                                     <li key={idx} className={`${styles.tagItem} list-group-item ${tag === t ? styles.tagItemActive : ''}`}>
@@ -44,7 +44,7 @@ export default function Blogs({ metaData }) {
                         </ul>
                     </div>
                     <div className={`col mt-md-2`}>
-                        <ul className={utilStyles.list}>
+                        <ul className={utilStyles.list + ' ' + styles.articleList}>
                             {metaData.map(({ id, date, title, cover, tags }) => (
                                 <Link key={id} className="textLink" href={`/blogs/${id}`} >
                                     <li className={`${utilStyles.listItem} row ${styles.blogItem}`} key={id}>
