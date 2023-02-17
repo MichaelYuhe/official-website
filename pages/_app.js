@@ -7,6 +7,7 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag"
 import { DefaultSeo } from 'next-seo';
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
     const router = useRouter();
@@ -29,6 +30,10 @@ export default function App({ Component, pageProps }) {
 
     return (
         <>
+            <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/favicon.svg" />
+            </Head>
             <DefaultSeo
                 title="FeatBit, 100% open source feature flags management"
                 description="FeatBit is a scalable, high-performance, 100% open source feature flags management platform. FeatBit allows you to do Testing in Production, Progressive Delivery, Entitlement  Management, AB Test, etc. Launchdarkly Alternative."
