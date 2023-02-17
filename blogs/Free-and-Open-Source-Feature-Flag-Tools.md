@@ -1,8 +1,12 @@
 ---
 title: 'Best Free and Open Source Feature Flag Tools'
-date: '2023-02-14'
+description: 'Best Free and Open Source Feature Flag Tools'
+publishedDate: '2023-02-17'
+modifiedDate: '2023-02-17'
 cover: '/images/blogs/open-sourece-feature-flag-tools-review/table-flag-targeting.png'
-tags: ['open-source', 'feature-flags']
+tags: ['open source', 'feature flags', 'testing in production', 'progressive delivery']
+authors: ['HU Beau']
+url: 'Free-and-Open-Source-Feature-Flag-Tools'
 ---
 
 ## Overview

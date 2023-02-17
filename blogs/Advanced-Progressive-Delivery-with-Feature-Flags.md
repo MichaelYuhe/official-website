@@ -1,8 +1,12 @@
 ---
 title: 'Advanced Progressive Delivery with Feature Flags'
-date: '2023-02-02'
+description: 'Advanced Progressive Delivery with Feature Flags'
+publishedDate: '2023-02-17'
+modifiedDate: '2023-02-17'
 cover: '/images/blogs/progressive-delivery-with-feature-flag.png'
-tags: ['progressive-delivery', 'feature-flags']
+tags: ['progressive delivery', 'feature flags', 'testing in production']
+authors: ['HU Beau']
+url: 'Advanced-Progressive-Delivery-with-Feature-Flags'
 ---
 
 
@@ -18,8 +22,6 @@ tags: ['progressive-delivery', 'feature-flags']
 
 
 ## Progressive delivery with feature flags
-
-Remove the **stress** and risk around releases by allowing faster resolution of incidents. 
 
 Feature flags enable progressive delivery whereby a feature is gradually released to a larger percentage of users to ensure that it performs as expected, enabling teams to detect problems earlier and reduce the impact of any issues. 
 

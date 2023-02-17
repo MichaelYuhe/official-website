@@ -41,7 +41,7 @@ export default function Home() {
           Feature Flagging Service
         </div>
         <div className={styles.subLine}>
-          Scalable, High-performance, free to install FeatBit in <strong style={{marginLeft: '5px'}}>any environment</strong>
+          Scalable, High-performance, free to install FeatBit in any environment
         </div>
         <div className={styles.faceThirdLine}>
           <Alternative></Alternative>
