@@ -33,6 +33,7 @@ export default function App({ Component, pageProps }) {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.svg" />
+                <meta name="google-site-verification" content="XQqPRjbrvlxQGUYV133nQIPfeM1DGmqsxjqyuj-aCm4" />
             </Head>
             <DefaultSeo
                 title="FeatBit, 100% open source feature flags management"
