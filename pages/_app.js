@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }) {
             </Head>
             <DefaultSeo
                 title="FeatBit, 100% open source feature flags management"
-                description="FeatBit is a scalable, high-performance, 100% open source feature flags management platform. FeatBit allows you to do Testing in Production, Progressive Delivery, Entitlement  Management, AB Test, etc. Launchdarkly Alternative."
+                description="FeatBit, open source feature flags management; DotNet open source feature flag; c# open source feautre flags; .NET open source feature flags; Testing in Production; Progressive Delivery; Launchdarkly Alternative;"
                 openGraph={{
                     type: 'website',
                     locale: 'en_IE',
