@@ -115,13 +115,13 @@ export default function Home() {
             <div className={`mt-1 col-sm-12 col-md-12 col-lg-10 ${styles.sdkRowLeft}`} >
               <div>
                 Supporting a bunch of server-side and client-side SDKS, and much more on the way, FeatBit offers a very easy way to work within any tech stack.
-                Our SDKs are built for extreme speed, flexibility, and security. 
-                
+                Our SDKs are built for extreme speed, flexibility, and security.
+
                 {/* The near real time data sync mode makes a flag change in effect as soon as you save it in UI.
                 The schedule feature can make a change in effect at any wished time even when the whole teams is sleeping. */}
               </div>
               <div className={`${styles.sdkRowLeftSecondLine}`}>
-                The near real time data sync mode makes a flag change in effect as soon as you save it in UI.
+                The real time data sync mode makes a flag change in effect as soon as you save it in UI.
                 The schedule feature can make a change in effect at any wished time even when the whole teams is sleeping.
                 Check <Link href="https://featbit.gitbook.io/docs/getting-started/4.-connect-an-sdk" target="_blank">our SDKs here</Link>.
               </div>
@@ -214,6 +214,34 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <h1 hidden>
+        dotnet open source feature flag library; c# open source feature flag library; .NET open source feature flag library;
+      </h1>
+      <h1 hidden>
+        dotnet open source feature flag; c# open source feature flag; .NET open source feature flag; Asp.NET open source feature flag;
+      </h1>
+      <h1 hidden>
+        100% open source feature flag
+      </h1>
+      <h1 hidden>
+        FeatBit
+      </h1>
+      <h1 hidden>
+        Testing in production
+      </h1>
+      <h1 hidden>
+        Progressive Delivery
+      </h1>
+      <h1 hidden>
+        Launchdarkly
+      </h1>
+      <h1 hidden>
+        Microsoft Feature Flags; Microsoft Feature Management; .NET feature management
+      </h1>
+      <h1 hidden>
+        Feature Management; Feature Toggle; Feature Toggling; Feature Flagging
+      </h1>
     </Layout>
   )
 }

@@ -2,20 +2,31 @@
 <xml version="1.0" encoding="UTF-8">
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
-            <loc>https://www.featbit.co/blogs</loc>
-            <lastmod>2023-02-18</lastmod>
-        </url>
-        <url>
-            <loc>https://featbit.co/blogs</loc>
-            <lastmod>2023-02-18</lastmod>
-        </url>
-        <url>
             <loc>https://www.featbit.co/</loc>
-            <lastmod>2023-02-18</lastmod>
+            <lastmod>2023-02-19</lastmod>
         </url>
         <url>
             <loc>https://featbit.co/</loc>
-            <lastmod>2023-02-18</lastmod>
-        </url>        
+            <lastmod>2023-02-19</lastmod>
+        </url>  
+
+        <url>
+            <loc>https://www.featbit.co/blogs</loc>
+            <lastmod>2023-02-19</lastmod>
+        </url>
+        <url>
+            <loc>https://featbit.co/blogs</loc>
+            <lastmod>2023-02-19</lastmod>
+        </url>     
+        
+        
+        <url>
+            <loc>https://www.featbit.co/blogs/Free-and-Open-Source-Feature-Flag-Tools</loc>
+            <lastmod>2023-02-19</lastmod>
+        </url>
+        <url>
+            <loc>https://www.featbit.co/blogs/Advanced-Progressive-Delivery-with-Feature-Flags</loc>
+            <lastmod>2023-02-19</lastmod>
+        </url>
     </urlset>
 </xml>
