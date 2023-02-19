@@ -1,8 +1,8 @@
 ---
 title: 'Best Free and Open Source Feature Flag Tools'
 description: 'Best Free and Open Source Feature Flag Tools'
-publishedDate: '2023-02-17'
-modifiedDate: '2023-02-17'
+publishedDate: '2023-02-19'
+modifiedDate: '2023-02-19'
 cover: '/images/blogs/open-sourece-feature-flag-tools-review/table-flag-targeting.png'
 tags: ['open source', 'feature flags', 'testing in production', 'progressive delivery']
 authors: ['HU Beau']
@@ -268,3 +268,7 @@ This article reviewed four OS feature flagging tools (FeatBit, Flagsmith, Growth
 All those tools are on the way to making better software, but FeatBit offers more open-source features.
 
 If you're looking for a FOSS feature management service, FeatBit should be your first choice. BTW, you're free to install FeatBit in any environment.
+
+----------------
+
+[FeatBit official Website](https://featbit.co) | [FeatBit GitHub](https://github.com/featbit/featbit)

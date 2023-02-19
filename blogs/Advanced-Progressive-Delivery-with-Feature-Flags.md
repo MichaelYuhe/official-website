@@ -1,24 +1,13 @@
 ---
 title: 'Advanced Progressive Delivery with Feature Flags'
 description: 'Advanced Progressive Delivery with Feature Flags'
-publishedDate: '2023-02-17'
-modifiedDate: '2023-02-17'
+publishedDate: '2023-02-18'
+modifiedDate: '2023-02-18'
 cover: '/images/blogs/progressive-delivery-with-feature-flag.png'
 tags: ['progressive delivery', 'feature flags', 'testing in production']
 authors: ['HU Beau']
 url: 'Advanced-Progressive-Delivery-with-Feature-Flags'
 ---
-
-
-
-<!-- **Table of contents**
-
-[1. Progressive delivery with feature flags](#Progressive-delivery-with-feature-flags)
-
-[2. Progressive delivery by customized user attributer](#progressive-delivery-by-customized-user-attributer)
-
-[3. Another paragraph](#paragraph2) -->
-
 
 
 ## Progressive delivery with feature flags
@@ -54,3 +43,6 @@ Suppose a new deployment contains multiple features, and the feature release str
 If the new deployment contains one feature, you still need to set the rules in the traffic routing tool. You must fetch user information to split the traffic to the new feature's server/container/service. You also need an independent Identity Server to fetch user information before the user loads the application. It's complicated enough, and only Ops engineers can do it.
 
 
+----------------
+
+[FeatBit official Website](https://featbit.co) | [FeatBit GitHub](https://github.com/featbit/featbit)
