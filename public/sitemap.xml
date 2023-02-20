@@ -4,17 +4,17 @@
     <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
     <url>
         <loc>https://www.featbit.co/</loc>
-        <lastmod>2023-02-20T13:18:13+00:00</lastmod>
+        <lastmod>2023-02-20T13:58:13+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
         <loc>https://www.featbit.co/blogs</loc>
-        <lastmod>2023-02-20T13:18:13+00:00</lastmod>
+        <lastmod>2023-02-20T13:58:13+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://www.featbit.co/blogs/Free-and-Open-Source-Feature-Flag-Tools</loc>
-        <lastmod>2023-02-20T13:28:13+00:00</lastmod>
+        <lastmod>2023-02-20T13:58:13+00:00</lastmod>
         <priority>0.80</priority>
     </url>
 </urlset>
