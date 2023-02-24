@@ -43,9 +43,10 @@ export default function Blogs({ metaData }) {
             });
         }
 
-        router.query.tag = tag;
-        router.query.term = searhTerm;
-        //router.push(router);
+        router.push({
+            pathname: router.pathname,
+            query: {tag, term: searhTerm}
+        }, undefined, { shallow: true });
 
         setBlogs(result);
     }
