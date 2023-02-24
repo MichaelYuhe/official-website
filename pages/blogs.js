@@ -45,7 +45,7 @@ export default function Blogs({ metaData }) {
 
         router.query.tag = tag;
         router.query.term = searhTerm;
-        router.push(router);
+        //router.push(router);
 
         setBlogs(result);
     }
@@ -83,7 +83,7 @@ export default function Blogs({ metaData }) {
                                 <Link key={id} className={`textLink col-md-6 col-sm-12`} href={`/blogs/${id}`} >
                                     <li className={`${styles.blogItem}`} key={id}>
                                         <div className={`${styles.blogItemCover}`}>
-                                            <img height="250" src={cover}/>
+                                            <img src={cover}/>
                                         </div>
 
                                         <div className="">
