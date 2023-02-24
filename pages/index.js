@@ -11,7 +11,6 @@ import expt from "../public/images/expt.png"
 import entitlement from "../public/images/flag_entitlement.png"
 import iam from "../public/images/flag_iam.png"
 import sdks from "../public/images/flag_sdks.png"
-import tipsetqa from "../public/images/flag_tip_set_qa.png"
 import progressiverelease from "../public/images/flag_progressive_release.png"
 
 
