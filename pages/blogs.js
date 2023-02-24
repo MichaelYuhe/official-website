@@ -39,7 +39,7 @@ export default function Blogs({ metaData }) {
         if (searhTerm) {
             searhTerm = searhTerm.toLowerCase();
             result = result.filter(({ title, tags }) => {
-                return title.toLowerCase().includes(searhTerm) || tags.includes(searhTerm);
+                return title.toLowerCase().includes(searhTerm) || tags.some((tag) => tag.toLowerCase().includes(searhTerm));
             });
         }
 
