@@ -57,10 +57,10 @@ export default function Home() {
       </section>
       <section className={`${styles.section1}`}>
         <div className={`container-xxl ${styles.section} py-4 py-md-5`}>
-          <div className={`row mt-4 g-3 ${styles.features}`}>
+          <div className={`row mt-4 g-2 ${styles.features}`}>
             <div className={`col-md-3 col-sm-12`}>
               <div className={`${styles.feature}`}>
-                <h2 className={`${styles.keycontentTitle}`}>Release Fast and Confidently</h2>
+                <h3 className={`${styles.keycontentTitle}`}>Release Fastly and Safely</h3>
                 <p className="">
                   Decouple code deployment from releases to speed up feature releases while mitigating risks.
                 </p>
@@ -70,7 +70,7 @@ export default function Home() {
               <div className={`${styles.feature}`}>
                 <h2 className={`${styles.keycontentTitle}`}>Testing in Production</h2>
                 <p className="">
-                  Testing new feature in real production environment to reduce release risk & mitigate release stress.
+                  Testing new feature in production environment to reduce release risk & mitigate release stress.
                 </p>
               </div>
             </div>
