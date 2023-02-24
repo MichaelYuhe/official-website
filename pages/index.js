@@ -6,6 +6,7 @@ import Image from "next/image";
 import flagList from "../public/images/flag_list.png"
 import flagInsight1 from "../public/images/flag_insights_1.png"
 import flagInsight2 from "../public/images/flag_insights_2.png"
+import performance1 from "../public/images/performance_1.png"
 import expt from "../public/images/expt.png"
 import entitlement from "../public/images/flag_entitlement.png"
 import iam from "../public/images/flag_iam.png"
@@ -41,7 +42,7 @@ export default function Home() {
           Feature Flagging Service
         </div>
         <div className={styles.subLine}>
-          Scalable, High-performance, free to install FeatBit in any environment
+          Scalable, Great Performance, free to install FeatBit in any environment
         </div>
         <div className={styles.faceThirdLine}>
           <Alternative></Alternative>
@@ -199,9 +200,13 @@ export default function Home() {
 
       <section className={`${styles.section2}`}>
         <div className={`container-xxl ${styles.section} py-4 py-md-5`}>
-          <div className={'h1 mb-4'}>Scalable and high performance</div>
+          <div className={'h1 mb-4'}>Scalable and Great performance</div>
           <div>
-            <div>FeatBit is built based on micro-services, its horizontally scalable feature and our carefully designed architecture ensures a high performance solution.</div>
+            <div>FeatBit is built based on micro-services, its horizontally scalable feature and our carefully designed architecture ensures a high performance solution. </div>
+
+            <div className={`mt-5 ${styles.imgContainer}`}>
+              <Image className={`w-100 h-auto`} src={performance1}></Image>
+            </div>
           </div>
         </div>
       </section>
