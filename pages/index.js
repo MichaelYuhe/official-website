@@ -11,7 +11,10 @@ import expt from "../public/images/expt.png"
 import entitlement from "../public/images/flag_entitlement.png"
 import iam from "../public/images/flag_iam.png"
 import sdks from "../public/images/flag_sdks.png"
+import tipsetqa from "../public/images/flag_tip_set_qa.png"
 import progressiverelease from "../public/images/flag_progressive_release.png"
+
+
 
 
 const Alternative = () => {
@@ -55,33 +58,33 @@ export default function Home() {
         </div>
       </section>
       <section className={`${styles.section1}`}>
-        <div className={`container-xxl ${styles.section} py-4 py-md-5`}>
-          <div className={`row mt-4 g-2 ${styles.features}`}>
+        <div className={`container-xxl ${styles.section} mt-4 mt-md-5 py-4 py-md-5`}>
+          <div className={`row mt-4`}>
             <div className={`col-md-3 col-sm-12`}>
-              <div className={`${styles.feature}`}>
-                <h3 className={`${styles.keycontentTitle}`}>Release Fastly and Safely</h3>
+              <div className="">
+                <h2 className={`${styles.keycontentTitle}`}>Release Fast and Confidently</h2>
                 <p className="">
                   Decouple code deployment from releases to speed up feature releases while mitigating risks.
                 </p>
               </div>
             </div>
             <div className={`col-md-3 col-sm-12`}>
-              <div className={`${styles.feature}`}>
+              <div className="">
                 <h2 className={`${styles.keycontentTitle}`}>Testing in Production</h2>
                 <p className="">
-                  Testing new feature in production environment to reduce release risk & mitigate release stress.
+                  Testing new feature in real production environment to reduce release risk & mitigate release stress.
                 </p>
               </div>
             </div>
             <div className={`col-md-3 col-sm-12`}>
-              <div className={`${styles.feature}`}>
+              <div className="">
                 <h2 className={`${styles.keycontentTitle}`}>Progressive Delivery</h2>
                 <p className="">
                   Releasing feature progressively and Resolve incidents as soon as they happen with instant rollback.</p>
               </div>
             </div>
             <div className={`col-md-3 col-sm-12`}>
-              <div className={`${styles.feature}`}>
+              <div className="">
                 <h2 className={`${styles.keycontentTitle}`}>A/B & Experimentation</h2>
                 <p className="">Measuring the impact when rollout features and running A/B tests to improve feature quality.</p>
               </div>
@@ -217,6 +220,33 @@ export default function Home() {
         </div>
       </section>
 
+      <h1 hidden>
+        dotnet open source feature flag library; c# open source feature flag library; .NET open source feature flag library;
+      </h1>
+      <h1 hidden>
+        dotnet open source feature flag; c# open source feature flag; .NET open source feature flag; Asp.NET open source feature flag;
+      </h1>
+      <h1 hidden>
+        100% open source feature flag
+      </h1>
+      <h1 hidden>
+        FeatBit
+      </h1>
+      <h1 hidden>
+        Testing in production
+      </h1>
+      <h1 hidden>
+        Progressive Delivery
+      </h1>
+      <h1 hidden>
+        Launchdarkly
+      </h1>
+      <h1 hidden>
+        Microsoft Feature Flags; Microsoft Feature Management; .NET feature management
+      </h1>
+      <h1 hidden>
+        Feature Management; Feature Toggle; Feature Toggling; Feature Flagging
+      </h1>
     </Layout>
   )
 }
