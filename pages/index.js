@@ -15,8 +15,6 @@ import tipsetqa from "../public/images/flag_tip_set_qa.png"
 import progressiverelease from "../public/images/flag_progressive_release.png"
 
 
-
-
 const Alternative = () => {
   const alternatives = ['LaunchDarkly', 'Unleash'];
   const [alterIdx, setAlterIdx] = useState(0);
@@ -58,10 +56,10 @@ export default function Home() {
         </div>
       </section>
       <section className={`${styles.section1}`}>
-        <div className={`container-xxl ${styles.section} mt-4 mt-md-5 py-4 py-md-5`}>
-          <div className={`row mt-4`}>
+        <div className={`container-xxl ${styles.section} py-4 py-md-5`}>
+          <div className={`row mt-4 g-3 ${styles.features}`}>
             <div className={`col-md-3 col-sm-12`}>
-              <div className="">
+              <div className={`${styles.feature}`}>
                 <h2 className={`${styles.keycontentTitle}`}>Release Fast and Confidently</h2>
                 <p className="">
                   Decouple code deployment from releases to speed up feature releases while mitigating risks.
@@ -69,7 +67,7 @@ export default function Home() {
               </div>
             </div>
             <div className={`col-md-3 col-sm-12`}>
-              <div className="">
+              <div className={`${styles.feature}`}>
                 <h2 className={`${styles.keycontentTitle}`}>Testing in Production</h2>
                 <p className="">
                   Testing new feature in real production environment to reduce release risk & mitigate release stress.
@@ -77,14 +75,14 @@ export default function Home() {
               </div>
             </div>
             <div className={`col-md-3 col-sm-12`}>
-              <div className="">
+              <div className={`${styles.feature}`}>
                 <h2 className={`${styles.keycontentTitle}`}>Progressive Delivery</h2>
                 <p className="">
                   Releasing feature progressively and Resolve incidents as soon as they happen with instant rollback.</p>
               </div>
             </div>
             <div className={`col-md-3 col-sm-12`}>
-              <div className="">
+              <div className={`${styles.feature}`}>
                 <h2 className={`${styles.keycontentTitle}`}>A/B & Experimentation</h2>
                 <p className="">Measuring the impact when rollout features and running A/B tests to improve feature quality.</p>
               </div>
