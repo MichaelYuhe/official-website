@@ -8,10 +8,29 @@
 
 .blogContainer {
   margin-top: 18px;
-  margin-bottom: 88px;
+  margin-bottom: 58px;
 
 }
 
 .blogContainer h2 {
   margin-bottom: 18px;
+}
+
+.githubBtn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.githubBtn i{
+  margin-right: 10px;
+  font-size: 20px;
+}
+.githubBtn img{
+  float:left;
+  position: absolute;
+}
+.githubBtn div{
+  float:right;
+  padding-left: 70px;
+  margin-left: 5px;
 }
