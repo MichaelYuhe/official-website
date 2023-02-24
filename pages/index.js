@@ -218,33 +218,6 @@ export default function Home() {
         </div>
       </section>
 
-      <h1 hidden>
-        dotnet open source feature flag library; c# open source feature flag library; .NET open source feature flag library;
-      </h1>
-      <h1 hidden>
-        dotnet open source feature flag; c# open source feature flag; .NET open source feature flag; Asp.NET open source feature flag;
-      </h1>
-      <h1 hidden>
-        100% open source feature flag
-      </h1>
-      <h1 hidden>
-        FeatBit
-      </h1>
-      <h1 hidden>
-        Testing in production
-      </h1>
-      <h1 hidden>
-        Progressive Delivery
-      </h1>
-      <h1 hidden>
-        Launchdarkly
-      </h1>
-      <h1 hidden>
-        Microsoft Feature Flags; Microsoft Feature Management; .NET feature management
-      </h1>
-      <h1 hidden>
-        Feature Management; Feature Toggle; Feature Toggling; Feature Flagging
-      </h1>
     </Layout>
   )
 }
