@@ -81,7 +81,7 @@ export default function Blogs({ metaData }) {
                     <div className={`col mt-md-2`}>
                         <ul className={`${utilStyles.list} ${styles.articleList} row g-3`}>
                             {blogs.map(({ id, modifiedDate, title, cover, tags }) => (
-                                <Link key={id} className={`textLink col-md-6 col-sm-12`} href={`/blogs/${id}`} >
+                                <Link key={id} className={`textLink col-md-6 col-sm-12 d-flex align-items-stretch`} href={`/blogs/${id}`} >
                                     <li className={`${styles.blogItem}`} key={id}>
                                         <div className={`${styles.blogItemCover}`}>
                                             <img src={cover}/>
