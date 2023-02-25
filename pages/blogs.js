@@ -38,9 +38,15 @@ export default function Blogs({ metaData }) {
         
         if (searhTerm) {
             searhTerm = searhTerm.toLowerCase();
+            const regex = new RegExp(`(${searhTerm})`, 'ig');
             result = result.filter(({ title, tags }) => {
-                return title.toLowerCase().includes(searhTerm) || tags.some((tag) => tag.toLowerCase().includes(searhTerm));
-            });
+                return regex.test(title) || tags.some((tag) => regex.test(tag));
+            }).map((blog) => (
+                {
+                    ...blog,
+                    title: blog.title.replace(regex, `<span class="highlight">$1</span>`)
+                }
+            ));
         }
 
         router.push({
@@ -88,7 +94,7 @@ export default function Blogs({ metaData }) {
                                         </div>
 
                                         <div className="">
-                                            <div className={`${styles.blogTitle}`} href={`/blogs/${id}`}>{title}</div>
+                                            <div className={`${styles.blogTitle}`} href={`/blogs/${id}`} dangerouslySetInnerHTML={{ __html: title }}></div>
                                             <small className={utilStyles.lightText}>
                                                 <Date dateString={modifiedDate} />
                                             </small>
