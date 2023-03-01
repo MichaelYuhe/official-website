@@ -13,7 +13,7 @@ export default function Post({ postData }) {
       <NextSeo
         title={postData.title}
         description={postData.description}
-        // canonical="www.example.com/next-seo-blog"
+        canonical={`www.featbit.co/blogs/${postData.url}`}
         openGraph={{
           type: 'article',
           article: {
@@ -23,12 +23,6 @@ export default function Post({ postData }) {
             tags: postData.tags,
           },
           url: `www.featbit.co/blogs/${postData.url}`,
-          // images: {
-          //   url: 'https://www.test.ie/images/cover.jpg',
-          //   width: 850,
-          //   height: 650,
-          //   alt: 'Photo of text',
-          // },
           site_name: 'FeatBit Blog'
         }}
       />

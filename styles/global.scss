@@ -37,7 +37,9 @@ blockquote {
   border-radius: 5px;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid $black;
   border-collapse: collapse;
   padding: 5px 10px;
@@ -46,4 +48,18 @@ table, th, td {
 .highlight {
   background-color: $yellow-200;
   border-radius: 4px;
+}
+
+table {
+  margin-bottom: 20px;
+
+  th,
+  td {
+    font-size: 16px;
+  }
+}
+
+ol,
+ul {
+  padding-left: 20px !important;
 }

@@ -3,7 +3,7 @@ title: 'Best Free and Open Source Feature Flag Tools'
 description: 'Best Free and Open Source Feature Flag Tools'
 publishedDate: '2023-02-19'
 modifiedDate: '2023-02-19'
-cover: '/images/blogs/open-sourece-feature-flag-tools-review/table-flag-targeting.png'
+cover: '/images/blogs/open-sourece-feature-flag-tools-review/front-pic-1.png'
 tags: ['open source', 'feature flags', 'testing in production', 'progressive delivery']
 authors: ['HU Beau']
 url: 'Free-and-Open-Source-Feature-Flag-Tools'
@@ -113,7 +113,7 @@ The features in Flag Targeting module allow you to control who sees each feature
 >
 
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-flag-targeting.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-flag-targeting.png" />
 <br/>
 
 All tools allow you to do Testing in Production and Progressive Release. But without features offered by FeatBit, you will lose essential capabilities of delivery & innovation:
@@ -127,7 +127,7 @@ All tools allow you to do Testing in Production and Progressive Release. But wit
 
 Managing Flags Module help you to organize and manage feature flags better. Here's the feature list that each feature flagging tool offers:
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-managing-flags.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-managing-flags.png" />
 <br/>
 
 With these features, you can easily search and manage feature flags across different environments of a project. Growthbook and Unleash currently offer more features.
@@ -136,7 +136,7 @@ With these features, you can easily search and manage feature flags across diffe
 
 Integrations & API Module allow other APPs to communicate with your feature flagging system. Here's the feature list that each feature flagging tool offers:
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-integration-n-api.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-integration-n-api.png" />
 <br/>
 
 All feature flagging tools (mentioned on the list) offer this module's free and open-source features. As a 100% open-source feature flagging tool, FeatBit will continuously provide more open-source features than others.
@@ -152,7 +152,7 @@ The Workflow Module features help automate manual tasks into a reusable workflow
 
 Here's the feature list that each feature flagging tool offers in their free & open-source version:
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-workflow.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-workflow.png" />
 <br/>
 
 As shown above, Unleash, Flagsmith, and Growthbook put features in their paid version. Only FeatBit is offering the free & open-source version.
@@ -161,7 +161,7 @@ As shown above, Unleash, Flagsmith, and Growthbook put features in their paid ve
 
 The features are often designed to protect customers' data,  networks and privacy so that the program aligns with the customer's required compliance standards.
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-security-n-compliance.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-security-n-compliance.png" />
 <br/>
 
 As shown above, Unleash, Flagsmith, and Growthbook put related features in their paid version. Not all features can be open-source because of the Security & Compliance required of a customer, but some can. FeatBit offers a free & open-source version for some related features.
@@ -170,7 +170,7 @@ As shown above, Unleash, Flagsmith, and Growthbook put related features in their
 
 I also list some independent features which are not mentioned above.
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-others.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-others.png" />
 <br/>
 
 As shown above, FeatBit and Growthbook allow users to invite unlimited team members, and create unlimited projects and environments in their free & open-source versions.
@@ -196,14 +196,14 @@ In this section, I will separate SDKs into two groups to compare: one for back-e
 
 ##### Back-end SDKs comparison
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-server-side-sdk-1.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-server-side-sdk-1.png" />
 <br/>
 
 As shown above, Unleash and Flagsmith offer more server-side SDKs.
 
 ##### Web APP & Mobile APP SDKs comparison
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-client-side-sdk-1.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-client-side-sdk-1.png" />
 <br/>
 
 As shown above, Unleash and Flagsmith offer more Web APP & Mobile APP SDKs.
@@ -233,7 +233,7 @@ Here's a comparison result of whether each feature flagging tool's SDK achieves 
 > "**V**" means the feature flagging tool has reached the corresponding metric.
 >
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-server-side-sdk-2.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-server-side-sdk-2.png" />
 <br/>
 
 Obviously, FeatBit won this comparison. 
@@ -256,7 +256,7 @@ Here's a comparison result of whether each feature flagging tool's SDK achieves 
 > "**V**" means the feature flagging tool has reached the corresponding metric.
 >
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-client-side-sdk-2.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/open-sourece-feature-flag-tools-review/table-client-side-sdk-2.png" />
 <br/>
 
 Obviously, FeatBit won this comparison.

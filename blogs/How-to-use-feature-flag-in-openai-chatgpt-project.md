@@ -3,10 +3,10 @@ title: 'How to use feature flags in a chatGPT & openai project, then save costs'
 description: 'How to use feature flags in a chatGPT & openai project, then save costs'
 publishedDate: '2023-02-24'
 modifiedDate: '2023-02-24'
-cover: '/images/blogs/openai-chatgpt/1.png'
+cover: '/images/blogs/openai-chatgpt/front-pic-1.png'
 tags: ['feature flags', 'openai & chatGPT']
 authors: ['HU Beau']
-url: 'How-to-use-feature-flag-in-AI-project'
+url: 'How-to-use-feature-flag-in-openai-chatgpt-project'
 ---
 
 
@@ -22,7 +22,7 @@ Feature flags can be a useful technique for managing and deploying machine learn
 
 4. Monitor your model: Keep track of the feature flag usage and how it affects the performance of your ChatGPT model. You can use metrics like response time, error rate, and user feedback to monitor the performance of your model.
 
-<img style="max-width: 900px;width: 100%;" src="/images/blogs/openai-chatgpt/1.png" />
+<img style="max-width: 800px;width: 100%;" src="/images/blogs/openai-chatgpt/1.png" />
 <br/>
 
 

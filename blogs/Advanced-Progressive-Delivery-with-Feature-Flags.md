@@ -16,7 +16,7 @@ Feature flags enable progressive delivery whereby a feature is gradually release
 
 Suppose a feature is causing problems during the rollout. In that case, you can roll back the feature from the issue audience, solving the problem immediately without the need to roll back a complex release that may contain multiple critical features or fixes. 
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/progressive-delivery-with-feature-flag-0.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/progressive-delivery-with-feature-flag-0.png" />
 
 
 ## Progressive delivery by customized user attributer
@@ -30,11 +30,11 @@ In some scenarios, this simple rollout method can't achieve the needs, for examp
 Today, open-source feature-flag tools like Unleash and [FeatBit](https://github.com/featbit/featbit) provide an advanced rollout solution that allows you to roll out a feature progressively based on a custom user attribute. 
 
 
-<img style="max-width:900px;width: 100%;" src="/images/blogs/progressive-delivery-with-feature-flag.png" />
+<img style="max-width:800px;width: 100%;" src="/images/blogs/progressive-delivery-with-feature-flag.png" />
 
 For example, as shown below, you can use UI to release the "Squash Merge" feature to 10% of projects instead of users. This keeps users on the same project always having the same features. If everything is OK after a while (several hours or days), you can continue to roll out the feature to a larger percentage of projects.
 
-<img style="max-width:900px;width: 100%;" src="https://user-images.githubusercontent.com/68597908/215259949-19159fc4-3ded-4df4-aa64-0deca41982a1.png" />
+<img style="max-width:800px;width: 100%;" src="https://user-images.githubusercontent.com/68597908/215259949-19159fc4-3ded-4df4-aa64-0deca41982a1.png" />
 
 ## Why not use traffic routing technology
 
