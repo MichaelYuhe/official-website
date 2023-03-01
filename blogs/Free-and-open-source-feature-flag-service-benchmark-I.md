@@ -13,7 +13,9 @@ url: 'Free-and-open-source-feature-flag-service-benchmark-I'
 
 ## Overview
 
-FeatBit's Evaluation Server is a real-time feature flag management service designed to be scalable and fast. To ensure that the Evaluation Server can handle concurrent users effectively, it is necessary to conduct performance tests to determine its capacity to handle new evaluation connections per second. This article presents the results of such tests performed on the Evaluation Server in an isolated minimum environment.
+
+FeatBit's Evaluation Server is a real-time feature flag evaluation service designed to be scalable and fast. To ensure that the Evaluation Server can handle concurrent users effectively, it is necessary to conduct performance tests to determine its capacity to handle new evaluation connections per second. This article presents the results of such tests performed on the Evaluation Server in an isolated minimum environment.
+
 
 The Evaluation Server was expected to handle more than 1000 new evaluation connections per second with an acceptable error rate of less than 1%. The 99th percentile (P99) response time was expected to be less than 200 milliseconds. These requirements were set to ensure that the Evaluation Server could provide a high level of service to users and maintain its scalability.
 
@@ -27,13 +29,18 @@ The tests were designed to simulate real-life usage scenarios. The following tes
 
 **(1)** data-sync (data synchronisation): the process by which the evaluation server evaluates all of the user's feature flags and returns variation results to the user via the WebSocket.
 
-**(2)** response time: the time passed before data synchronisation request sent and after the response is received.
+
+**(2)** response time: the time elapsed between sending the data synchronisation request and receiving the response.
+
 
 
 
 ## Environment
 
-For the tests, a commonly available AWS EC2 service was used to host the Evaluation Server service. The instance type selected was **t2.micro with 1 vCPU and 1 GiB RAM**, which is **free tier** eligible. Using an EC2 instance minimized the impact of network latency on the results.
+For the tests, a commonly available AWS EC2 service was used to host the Evaluation Server service. The instance type selected was **t2.micro with 1 vCPU and 1 GiB RAM**, which is **free tier** eligible. 
+
+To minimise the network impact on the results, the load test service (K6) runs on another EC2 instance in the same VPC.
+
 
 ## Tests Performed
 
@@ -43,7 +50,8 @@ For the tests, a commonly available AWS EC2 service was used to host the Evaluat
 
 ## Test Results
 
-The results of the tests showed that the Evaluation Server met the desired quality of service only up to a certain limit load. The service was able to handle up to 1100 new connections per second before errors began to occur. Beyond that point, some errors were observed.
+The results of the tests showed that the Evaluation Server met the desired quality of service only up to a certain limit load. The service was able to handle up to 1100 new connections per second before P99 exceeded 200ms.
+
 
 **The response time**
 
@@ -80,8 +88,8 @@ We believe the reported performance is sufficient for small businesses at neglig
 You can visit our documentation page and GitHub repo for more information:
 
 - Data set used for the tests can be found in [documentation benchmark page](https://featbit.gitbook.io/docs/tech-stack/benchmark).
-- See the [GitHub benchmark readme](https://github.com/featbit/featbit/) for documentation on how to run the load test.
-- Documentation of how to run the load test can be found on [GitHub benchmark readme](https://github.com/featbit/featbit/blob/main/benchmark/README.md).
+- Documentation of how we run the load test can be found on [GitHub benchmark readme](https://github.com/featbit/featbit/blob/main/benchmark).
+
 
 
 
