@@ -1,5 +1,5 @@
 ---
-title: 'Some approaches to reducing your software delivery risk'
+title: 'Some approaches to reduce your software delivery risk'
 description: 'Minimising and reducing software delivery risk with feature flags'
 publishedDate: '2023-02-28'
 modifiedDate: '2023-02-28'
