@@ -1,6 +1,6 @@
 ---
 title: 'Open source feature flag service (written in C#) performance tested on AWS free tier EC2'
-description: 'Open source feature flag service (written in C#, DotNet, Csharp, .NET) performance tested on AWS free tier EC2'
+description: 'Free and Open source feature flag service (written in C#, DotNet, Csharp, .NET) performance tested on AWS free tier EC2'
 publishedDate: '2023-02-28'
 modifiedDate: '2023-02-28'
 cover: '/images/blogs/benchmark/front-pic-1.png'

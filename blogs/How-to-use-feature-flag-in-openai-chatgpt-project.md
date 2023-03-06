@@ -1,6 +1,6 @@
 ---
 title: 'How to use feature flags in a chatGPT & openai project, then save costs'
-description: 'How to use feature flags in a chatGPT & openai project, then save costs'
+description: 'How to use free and open source feature flags in a chatGPT & openai project, then save costs'
 publishedDate: '2023-02-24'
 modifiedDate: '2023-02-24'
 cover: '/images/blogs/openai-chatgpt/front-pic-1.png'
