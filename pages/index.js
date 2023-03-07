@@ -33,7 +33,7 @@ export default function Home() {
     <Layout>
       <section>
         <div className={`${styles.faceFirstLine} mt-5`}>
-          100% Open Source
+          Free & Open Source
         </div>
         <div className={styles.faceSecondLine}>
           Feature Flagging Service

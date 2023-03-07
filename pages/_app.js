@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }) {
                 <meta name="google-site-verification" content="XQqPRjbrvlxQGUYV133nQIPfeM1DGmqsxjqyuj-aCm4" />
             </Head>
             <DefaultSeo
-                title="FeatBit, 100% open source feature flags management"
+                title="FeatBit, free and open source feature flags management service"
                 description="FeatBit, free and open source (FOSS) feature flags management; Launchdarkly Alternative; .NET open source feature flag; c# open source feautre flags; Testing in Production; Progressive Delivery; "
                 openGraph={{
                     type: 'website',
