@@ -60,4 +60,4 @@ Finally, feature flags can be used to create a personalized experience for indiv
 
 ## Conclusion
 
-Feature flags are a powerful.
+Feature flags technique is powerful.

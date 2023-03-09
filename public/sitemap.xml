@@ -8,23 +8,28 @@
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://www.featbit.co/blogs</loc>
+        <loc>https://www.featbit.co/blogs/Free-and-Open-Source-Feature-Flag-Tools</loc>
         <lastmod>2023-02-20T13:58:13+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://www.featbit.co/blogs/Free-and-Open-Source-Feature-Flag-Tools</loc>
+        <loc>https://www.featbit.co/blogs/Free-and-open-source-feature-flag-service-benchmark-I</loc>
+        <lastmod>2023-02-28T01:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.featbit.co/blogs/Feature-Flags-Best-Practice-I-Overview</loc>
+        <lastmod>2023-03-07T01:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.featbit.co/blogs</loc>
         <lastmod>2023-02-20T13:58:13+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
         <loc>https://www.featbit.co/blogs/How-to-use-feature-flag-in-openai-chatgpt-project</loc>
         <lastmod>2023-02-20T13:58:13+00:00</lastmod>
-        <priority>0.64</priority>
-    </url>
-    <url>
-        <loc>https://www.featbit.co/blogs/Free-and-open-source-feature-flag-service-benchmark-I</loc>
-        <lastmod>2023-02-28T01:58:13+00:00</lastmod>
         <priority>0.64</priority>
     </url>
     <url>
@@ -35,6 +40,6 @@
     <url>
         <loc>https://www.featbit.co/blogs/Unlock-the-Power-of-Feature-Flags-A-Game-Changing-Software-Development-Technique</loc>
         <lastmod>2023-03-07T01:58:13+00:00</lastmod>
-        <priority>0.64</priority>
+        <priority>0.34</priority>
     </url>
 </urlset>

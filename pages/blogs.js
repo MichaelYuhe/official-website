@@ -93,7 +93,7 @@ export default function Blogs({ metaData }) {
                                             <img src={cover}/>
                                         </div>
 
-                                        <div className="">
+                                        <div className="" style={{width: "100%"}}>
                                             <div className={`${styles.blogTitle}`} href={`/blogs/${id}`} dangerouslySetInnerHTML={{ __html: title }}></div>
                                             <small className={utilStyles.lightText}>
                                                 <Date dateString={modifiedDate} />
