@@ -29,7 +29,7 @@ export default async function handler(
 
         return res.status(200).json({ message: "Feedback sent successfully" });
       } catch (e) {
-        res.status(501).end();
+        res.status(500).end();
       }
     }
 
