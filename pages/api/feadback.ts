@@ -29,7 +29,17 @@ export default async function handler(
 
         return res.status(200).json({ message: "Feedback sent successfully" });
       } catch (e) {
-        res.status(501).json({ message: e });
+        const smtpOptions = {
+          host: process.env.SMTP_HOST || "smtp.mailtrap.io",
+          port: parseInt(process.env.SMTP_PORT || "2525"),
+          secure: false,
+          auth: {
+            user: process.env.SMTP_USER || "user",
+            pass: process.env.SMTP_PASSWORD || "password",
+          },
+        }
+
+        res.status(501).json({ message: e, option: smtpOptions });
       }
     }
 
