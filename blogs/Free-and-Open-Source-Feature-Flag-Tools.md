@@ -9,25 +9,19 @@ authors: ['HU Beau']
 url: 'Free-and-Open-Source-Feature-Flag-Tools'
 ---
 
+
 ## Overview
 
-Feature flag is a modern engineering technology that decouples code deployments from feature releases, giving you control over who sees each feature and when they see it.
-
-Feature flag benefits include the ability to: 
-
-- Testing in production & rolling out features progressively to target users without redeployment.
-- Measuring the impact during features’ rollouts and running A/B tests to improve feature quality.
-- Empower CS and Marketing teams to fine-tune target audiences and manage customer entitlement.
-- etc.
-
+Feature flag is a modern engineering technology that decouples code deployments from feature releases, giving you control over who sees each feature and when they see it. You can visit another blog to get more information - [best practices with feature flags](https://www.featbit.co/blogs/Feature-Flags-Best-Practice-I-Overview).
 
 In this guide, I’ll explore some of the best open source feature flag tools, all of which are either totally free or offer open-core free plans. It includes:  [FeatBit](https://github.com/featbit/featbit) | [Flagsmith](https://github.com/flagsmith/flagsmith)  | [Growhtbook](https://github.com/growthbook/growthbook)  | [Unleash](https://github.com/Unleash/unleash)
 
 In this guide, I will review these tools in three dimensions:
 
 1. **Basic information**, such as open-source license, who is each feature flagging tool for, etc.
-2. **Features Comparison**, the features each feature flagging tool offers in its open-source version.
-2. **SDKs Comparison**, the SDKs each feature flagging tool offers and their differences.
+2. **Features Comparison**, the features each offers in its open-source version.
+3. **SDKs Comparison**, the SDKs each feature flagging tool offers and their differences.
+4. **Benchmark**, the performance report found in each tool's official websites.
 
 ## Basic information
 
@@ -260,6 +254,16 @@ Here's a comparison result of whether each feature flagging tool's SDK achieves 
 <br/>
 
 Obviously, FeatBit won this comparison.
+
+## Benchmark
+
+- **FeatBit**: [Open source feature flag service performance tested on AWS free tier EC2](https://www.featbit.co/blogs/Free-and-open-source-feature-flag-service-benchmark-I)
+
+- **Unleash**: No report found.
+
+- **Flagsmith**: No report found.
+
+- **Growthbook**: No report found.
 
 ## End summary
 
