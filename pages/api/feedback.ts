@@ -27,13 +27,15 @@ export default async function handler(
           html: render(FeedBackEmail({email, message})),
         });
 
-        return res.status(200).json({ message: "Feedback sent successfully" });
+        return res.status(200).json({ success: true, data: { message: "Feedback sent successfully"} });
       } catch (e) {
         res.status(500).end();
       }
     }
 
     res.status(400).end();
+  } else if (req.method === 'OPTIONS'){
+    res.status(200).end();
   } else {
     res.status(405).end();
   }
