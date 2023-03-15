@@ -12,6 +12,7 @@
     "@react-email/html": "0.0.4",
     "@react-email/preview": "0.0.5",
     "@react-email/section": "0.0.8",
+    "@slack/web-api": "^6.8.1",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "date-fns": "^2.29.3",

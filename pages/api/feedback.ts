@@ -1,16 +1,22 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { render } from "@react-email/render";
-import FeedBackEmail from "../../emails/FeedbackTemplate";
-import { sendEmail } from "../../lib/email";
+// import { render } from "@react-email/render";
+// import FeedBackEmail from "../../emails/FeedbackTemplate";
+// import { sendEmail } from "../../lib/email";
 
-const token = "uxeizS3tlCXRKLOi4GPtAU1OcVl3RkDR54HKlbt7tVZGaWTtmvfZYheQDUGLr4troWdksluYijZHGDKB";
+// const recipients = [
+//   "ijiyun.yang@gmail.com",
+//   "mikcczhang@gmail.com",
+//   "hu-beau@outlook.com",
+//   "andyclouz.sun@gmail.com"
+// ]
 
-const recipients = [
-  "ijiyun.yang@gmail.com",
-  "mikcczhang@gmail.com",
-  "hu-beau@outlook.com",
-  "andyclouz.sun@gmail.com"
-]
+import { WebClient } from '@slack/web-api';
+
+const slackToken = process.env.SLACK_TOKEN;
+const conversationId = process.env.CONVERSATION_ID;
+const web = new WebClient(slackToken);
+
+const token = process.env.TOKEN;
 
 export default async function handler(
     req: NextApiRequest,
@@ -21,13 +27,29 @@ export default async function handler(
 
     if (req.headers.token === token && !!email && !!message) {
       try {
-        await sendEmail({
-          to: recipients,
-          subject: "FeatBit Feedback!!",
-          html: render(FeedBackEmail({email, message})),
-        });
+        const blocks = [
+          {
+            "type": "section",
+            "text": {
+              "type": "mrkdwn",
+              "text": `Hey <!here|here>, a feedback is received from one of FeatBit users \`${email}\` 😄 \n>${message}\n>`
+            }
+          }
+        ];
 
-        return res.status(200).json({ success: true, data: { message: "Feedback sent successfully"} });
+        await web.chat.postMessage({
+          blocks,
+          "text": `Hey, a feedback is received from one of FeatBit users \`${email}\` with the message ${message}`,
+          channel: conversationId,
+        });
+        //     We are not sending email for now
+        //     await sendEmail({
+        //       to: recipients,
+        //       subject: "FeatBit Feedback!!",
+        //       html: render(FeedBackEmail({email, message})),
+        //     });
+
+        return res.status(200).json({ success: true, data: { message: `Successfully send message`} });
       } catch (e) {
         res.status(500).end();
       }
