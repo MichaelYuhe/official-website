@@ -6,8 +6,27 @@ import utilStyles from '../../styles/utils.module.scss'
 import styles from "./blog.module.scss";
 import { NextSeo, ArticleJsonLd } from 'next-seo';
 import Link from "next/link";
+import { useEffect } from 'react';
+// import Highlight.js and the languages you need
+import 'highlight.js/styles/default.css';
+import hljs from 'highlight.js/lib/core';
+import javascript from 'highlight.js/lib/languages/javascript';
+import xml from 'highlight.js/lib/languages/xml';
+import csharp from 'highlight.js/lib/languages/csharp';
+import json from 'highlight.js/lib/languages/json';
+import yaml from 'highlight.js/lib/languages/yaml';
+hljs.registerLanguage('javascript', javascript)
+hljs.registerLanguage('xml', xml)
+hljs.registerLanguage('csharp', csharp)
+hljs.registerLanguage('json', json)
+hljs.registerLanguage('yaml', yaml)
+
 
 export default function Post({ postData }) {
+  useEffect(() => {
+    hljs.highlightAll();
+  }, []);
+
   return (
     <Layout>
       <NextSeo

@@ -4,7 +4,7 @@ description: 'How to use free and open source feature flags in a chatGPT & opena
 publishedDate: '2023-02-24'
 modifiedDate: '2023-02-24'
 cover: '/images/blogs/openai-chatgpt/front-pic-1.png'
-tags: ['feature flags', 'openai & chatGPT']
+tags: ['Best Practice']
 authors: ['HU Beau']
 url: 'How-to-use-feature-flag-in-openai-chatgpt-project'
 ---

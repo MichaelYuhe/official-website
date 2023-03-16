@@ -4,7 +4,7 @@ description: 'Discover how free and open-source feature flags can revolutionize 
 publishedDate: '2023-03-08'
 modifiedDate: '2023-03-08'
 cover: '/images/blogs/unlock-power-of-feature-flags/pic-front-1.png'
-tags: [ 'feature flags', 'testing in production', 'progressive delivery' ]
+tags: [ 'Testing in Production', 'Progressive Release' ]
 authors: ['HU Beau']
 url: 'Unlock-the-Power-of-Feature-Flags-A-Game-Changing-Software-Development-Technique'
 ---

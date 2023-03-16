@@ -4,7 +4,7 @@ description: 'Advanced Progressive Delivery with Feature Flags'
 publishedDate: '2023-02-18'
 modifiedDate: '2023-02-18'
 cover: '/images/blogs/progressive-delivery-with-feature-flag.png'
-tags: ['progressive delivery', 'feature flags', 'testing in production']
+tags: ['Progressive Release', 'Best Practice', 'Testing in Production']
 authors: ['HU Beau']
 url: 'Advanced-Progressive-Delivery-with-Feature-Flags'
 ---

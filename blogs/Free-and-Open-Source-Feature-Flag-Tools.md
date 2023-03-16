@@ -4,7 +4,7 @@ description: 'Best Free and Open Source Feature Flag Tools'
 publishedDate: '2023-02-19'
 modifiedDate: '2023-02-19'
 cover: '/images/blogs/open-sourece-feature-flag-tools-review/front-pic-1.png'
-tags: ['open source', 'feature flags']
+tags: ['Progressive Release', 'Testing in Production']
 authors: ['HU Beau']
 url: 'Free-and-Open-Source-Feature-Flag-Tools'
 ---

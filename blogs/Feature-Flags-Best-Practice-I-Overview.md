@@ -4,7 +4,7 @@ description: 'Free and Open source Feature Flags Best Practice I - Overview'
 publishedDate: '2023-03-09'
 modifiedDate: '2023-03-09'
 cover: '/images/blogs/bestpractice/front-pic-1.png'
-tags: ['open source', 'feature flags', 'best practice']
+tags: ['Best Practice']
 authors: ['HU Beau']
 url: 'Feature-Flags-Best-Practice-I-Overview'
 ---

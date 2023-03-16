@@ -4,7 +4,7 @@ description: 'Free and Open source feature flag service (written in C#, DotNet, 
 publishedDate: '2023-02-28'
 modifiedDate: '2023-02-28'
 cover: '/images/blogs/benchmark/front-pic-1.png'
-tags: ['open source', 'feature flags', 'free']
+tags: ['Benchmark']
 authors: ['HU Beau']
 url: 'Free-and-open-source-feature-flag-service-benchmark-I'
 ---
