@@ -70,12 +70,13 @@ The code above shows that the visibility of the menu item is controlled by a fea
 
 The return value of `featBit.flags["{audit-log}"]` is determined by how you configure the rule in FeatBit's UI portal. The image below shows that users who are in premium plan segment can get `true` value. 
 
-<img style="max-width: 768px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/target-rule-1.png" />
+
+<img style="max-width: 800px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/target-rule-1.png" />
 <br/>
 
 The image below shows the configuration where users who match the condition are in the premium tier. For example, the "Rule 3 - domain" means that the users accessing the service under the domain list are the end users of the premium tier customer.
 
-<img style="max-width: 768px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/target-rule-2.png" />
+<img style="max-width: 800px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/target-rule-2.png" />
 <br/>
 
 If you think control only front-end APP feature is not secure, you can also wrap up the feature code on the **back-end** (e.g. The APIs who deal with the feature):
@@ -131,7 +132,8 @@ Unlike a SaaS system, you can't remotely control at anytime who sees each featur
 
 FeatBit can help you make this work easier. You can use FeatBit to export a new Feature Flags configuration and send it to your self-hosted environment to enable the feature for your customer. FeatBit has prepared and is preparing several small functionalities to make this process easy. The following image shows FeatBit's user interface for exporting Feature Flags configuration to a self-hosted customer:
 
-<img style="max-width: 768px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/feature-management.png" />
+
+<img style="max-width: 800px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/feature-management.png" />
 <br/>
 
 FeatBit hopes that the whole release/delivery process can be done without any engineers.
@@ -152,7 +154,8 @@ if(featBit.variation("feature-flag-key") == true)
 
 For example, the code above uses a simple if/else statement to wrap up and control the execution of the new feature. This customer may have many end-users, so you also need to progressively (percentage rollout) release the new feature for the customer to minimize the "blast radius" (bugs and issues that may affect the end users' work). With the code implemented above, all you need to do is configure the release strategy as follows:
 
-<img style="max-width: 768px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/release-progressively.png" />
+
+<img style="max-width: 800px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/release-progressively.png" />
 <br/>
 
 10% of `Customer F`'s users or 10% of users at domain `tx.watermanager.xyz` can access the new feature. You can scale the percentage to roll out and roll back the feature (this is called a Progressive Release).
@@ -163,7 +166,8 @@ If it's a back-end feature, and you can separate versions of the same service in
 
 You can write a feature flag in the code where you call the service that contains different versions. This method is more developer friendly.
 
-<img style="max-width: 768px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/micro-service.png" />
+
+<img style="max-width: 800px;width: 100%;" src="/images/blogs/manage-features-for-different-customers/micro-service.png" />
 <br/>
 
 You can also use a feature flag service to export the associated feature configuration to the microservice deployment file (such as yaml). In this case, the deployment configuration file will install the appropriate image based on the feature configuration file. This is a DevOps friendly solution.
