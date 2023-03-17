@@ -63,3 +63,19 @@ ol,
 ul {
   padding-left: 20px !important;
 }
+
+pre {
+  background-color: #e4e4e4;
+  padding: 10px;
+
+  code {
+    font-size: 13px;
+  }
+}
+
+code {
+  background-color: #efe7e7;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+

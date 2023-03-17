@@ -42,7 +42,3 @@ Suppose a new deployment contains multiple features, and the feature release str
 
 If the new deployment contains one feature, you still need to set the rules in the traffic routing tool. You must fetch user information to split the traffic to the new feature's server/container/service. You also need an independent Identity Server to fetch user information before the user loads the application. It's complicated enough, and only Ops engineers can do it.
 
-
-----------------
-
-[FeatBit official Website](https://featbit.co) | [FeatBit GitHub](https://github.com/featbit/featbit)

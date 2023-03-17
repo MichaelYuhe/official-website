@@ -4,7 +4,7 @@ description: 'Minimising and reducing software delivery risk with feature flags'
 publishedDate: '2023-02-28'
 modifiedDate: '2023-02-28'
 cover: '/images/blogs/minimize-delivery-risk/feature-flags.png'
-tags: ['best Practice']
+tags: ['Best Practice']
 authors: ['HU Beau']
 url: 'Minimize-delivery-risk'
 ---

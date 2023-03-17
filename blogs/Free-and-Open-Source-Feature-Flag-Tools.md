@@ -272,7 +272,3 @@ This article reviewed four OS feature flagging tools (FeatBit, Flagsmith, Growth
 All those tools are on the way to making better software, but FeatBit offers more open-source features.
 
 If you're looking for a FOSS feature management service, FeatBit should be your first choice. BTW, you're free to install FeatBit in any environment.
-
-----------------
-
-[FeatBit official Website](https://featbit.co) | [FeatBit GitHub](https://github.com/featbit/featbit)

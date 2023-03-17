@@ -1,13 +1,13 @@
 .articleContainer {
   max-width: 800px;
 
-  pre code span{
+  pre code span {
     font-size: 14px;
   }
 }
 
 .blogTitle {
-  margin-top: 1.2em;
+  margin-top: .6em;
 }
 
 .blogContainer {
@@ -23,19 +23,49 @@
 .githubBtn {
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
-.githubBtn i{
+
+.githubBtn i {
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
-.githubBtn img{
-  float:left;
+
+.githubBtn img {
+  float: left;
   position: absolute;
+  margin-left: -70px;
 }
-.githubBtn div{
-  float:right;
-  padding-left: 70px;
+
+.githubBtn div {
+  float: right;
+  // padding-left: 70px;
   margin-left: 5px;
 }
 
+
+.featuredArticlesItem {
+  margin-right: 10px;
+  border-right: 1px solid gray;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.featBitIntroduceContainer{
+  max-width: 772px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid rgb(228, 227, 227);
+  background-color: #0dcaf0;
+  color:white;
+  margin-top: 15px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+
+  .featBitShortDescription{
+    margin-bottom: 8px;
+  }
+}

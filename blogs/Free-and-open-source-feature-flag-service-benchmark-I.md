@@ -91,6 +91,3 @@ You can visit our documentation page and GitHub repo for more information:
 - Documentation of how we run the load test can be found on [GitHub benchmark readme](https://github.com/featbit/featbit/blob/main/benchmark).
 
 
-
-
------------------------

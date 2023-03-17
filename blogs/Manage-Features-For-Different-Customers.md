@@ -195,7 +195,3 @@ Or you can also use traffic routing tools like Nginx, Istio, etc. It's more comp
 ## Conclusion
 
 All you need to do is use a mature feature flags service to implement the practice in your own code source. Then use its professional management service to manage your features. FeatBit provides a built-in UI portal for feature management. It also allows you to integrate feature flag management into your Retool system using FeatBit's workflow, open API & integration services.
-
-----------------
-
-[FeatBit official Website](https://featbit.co) | [FeatBit GitHub](https://github.com/featbit/featbit)

@@ -18,8 +18,18 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://www.featbit.co/blogs/Manage-Features-For-Different-Customers</loc>
+        <lastmod>2023-03-16T01:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://www.featbit.co/blogs/Feature-Flags-Best-Practice-I-Overview</loc>
         <lastmod>2023-03-07T01:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.featbit.co/blogs/Dotnet-Open-Source-Feature-Flags-Library</loc>
+        <lastmod>2023-03-21T01:58:13+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
