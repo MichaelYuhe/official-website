@@ -55,9 +55,9 @@ export default function Post({ postData }) {
         description={postData.description}
       />
       <div className={styles.featBitIntroduceContainer}>
-        <h5>
+        <h1 style={{ fontSize: "1.25rem" }}>
           FeatBit, Free & Open Source Feature Flags Management Service
-        </h5>
+        </h1>
         <div >
           Scalable, Great Performance, free to install FeatBit in any environment
         </div>
@@ -104,9 +104,9 @@ export default function Post({ postData }) {
         </div>
 
         <div className={styles.featBitIntroduceContainer}>
-          <h5>
+          <h1 style={{ fontSize: "1.25rem" }}>
             FeatBit, Free & Open Source Feature Flags Management Service
-          </h5>
+          </h1>
           <div className={styles.featBitShortDescription} >
             Scalable, Great Performance, free to install FeatBit in any environment
           </div>
