@@ -1,8 +1,8 @@
 ---
 title: '.NET/C# open source feature flags library'
 description: '.NET/dotnet/C#, Free and Open source open source feature flags library'
-publishedDate: '2023-03-21'
-modifiedDate: '2023-03-21'
+publishedDate: '2023-03-18'
+modifiedDate: '2023-03-18'
 cover: '/images/blogs/dotnet-sdk/front-pic-1.jpg'
 tags: ['SDKs']
 authors: ['HU Beau']

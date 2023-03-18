@@ -29,7 +29,12 @@
     </url>
     <url>
         <loc>https://www.featbit.co/blogs/Dotnet-Open-Source-Feature-Flags-Library</loc>
-        <lastmod>2023-03-21T01:58:13+00:00</lastmod>
+        <lastmod>2023-03-18T01:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.featbit.co/blogs/Testing-in-Production</loc>
+        <lastmod>2023-03-18T02:58:13+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
