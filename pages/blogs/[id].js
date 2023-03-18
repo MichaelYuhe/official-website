@@ -138,7 +138,7 @@ export default function Post({ postData }) {
           <div style={{ marginTop: "10px", marginBottom: "25px", }}>
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Manage-Features-For-Different-Customers'>How to manage and release features to different customers in both SaaS and self-hosted environments</a>
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Feature-Flags-Best-Practice-I-Overview'>Feature Flags Best Practice I - Overview</a>
-            <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Unlock-the-Power-of-Feature-Flags-A-Game-Changing-Software-Development-Techniquebit.co/blogs/Manage-Features-For-Different-Customers'>Unlock the Power of Feature Flags: A Game-Changing Software Development Technique</a>
+            <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Unlock-the-Power-of-Feature-Flags-A-Game-Changing-Software-Development-Technique'>Unlock the Power of Feature Flags: A Game-Changing Software Development Technique</a>
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Free-and-open-source-feature-flag-service-benchmark-I'>Open source feature flag service (written in C#) performance tested on AWS free tier EC2</a>
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Advanced-Progressive-Delivery-with-Feature-Flags'>Advanced Progressive Delivery with Feature Flags</a>
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Free-and-Open-Source-Feature-Flag-Tools'>Best Free and Open Source Feature Flag Tools</a>
