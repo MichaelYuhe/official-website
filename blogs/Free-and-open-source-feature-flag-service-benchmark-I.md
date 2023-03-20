@@ -87,7 +87,7 @@ We believe the reported performance is sufficient for small businesses at neglig
 
 You can visit our documentation page and GitHub repo for more information:
 
-- Data set used for the tests can be found in [documentation benchmark page](https://featbit.gitbook.io/docs/tech-stack/benchmark).
+- Data set used for the tests can be found in [documentation benchmark page](https://docs.featbit.co/docs/tech-stack/benchmark).
 - Documentation of how we run the load test can be found on [GitHub benchmark readme](https://github.com/featbit/featbit/blob/main/benchmark).
 
 

@@ -32,12 +32,17 @@ export default function Home() {
   return (
     <Layout>
       <section>
-        <div className={`${styles.faceFirstLine} mt-5`}>
+        <h1  className={`${styles.faceFirstLine} mt-5`}>
           Free & Open Source
-        </div>
-        <div className={styles.faceSecondLine}>
           Feature Flagging Service
-        </div>
+          {/* <div className={`${styles.faceFirstLine} mt-5`}>
+            Free & Open Source
+          </div>
+          <div className={styles.faceSecondLine}>
+
+          </div> */}
+        </h1>
+
         <div className={styles.subLine}>
           Scalable, Great Performance, free to install FeatBit in any environment
         </div>
@@ -121,7 +126,7 @@ export default function Home() {
               <div className={`${styles.sdkRowLeftSecondLine}`}>
                 The real time data sync mode makes a flag change in effect as soon as you save it in UI.
                 The schedule feature can make a change in effect at any wished time even when the whole teams is sleeping.
-                Check <Link href="https://featbit.gitbook.io/docs/getting-started/4.-connect-an-sdk" target="_blank">our SDKs here</Link>.
+                Check <Link href="https://docs.featbit.co/docs/getting-started/4.-connect-an-sdk" target="_blank">our SDKs here</Link>.
               </div>
             </div>
             <div className={`mt-1 col-sm-0 col-md-0 col-lg-2`}>

@@ -1,8 +1,8 @@
 ---
 title: 'Best Free and Open Source Feature Flag Tools'
-description: 'Best Free and Open Source Feature Flag Tools'
-publishedDate: '2023-02-19'
-modifiedDate: '2023-02-19'
+description: 'FeatBit is a scalable and 100% open-source feature management tool. It is mainly written in C# and Typescript. FeatBit uses the MIT license. FeatBit is designed to empower all teams to deliver, control, and experiment with their software. It empowers engineers to deliver faster and safer, meanwhile empowering all teams to speed up their product innovation and monetization.'
+publishedDate: '2023-03-18'
+modifiedDate: '2023-03-18'
 cover: '/images/blogs/open-sourece-feature-flag-tools-review/front-pic-1.png'
 tags: ['Progressive Release', 'Testing in Production']
 authors: ['HU Beau']
@@ -35,7 +35,7 @@ This section will introduce feature flag tools' basic information, it includes:
 
 ##### FeatBit
 
-FeatBit is a scalable and 100% open-source feature management tool. It's mainly written in C#. FeatBit uses the MIT license.
+FeatBit is a scalable and 100% open-source feature management tool. It's mainly written in C# and Typescript. FeatBit uses the MIT license.
 
 FeatBit is designed to empower all teams to deliver, control, and experiment with their software. It empowers engineers to deliver faster and safer, meanwhile empowering all teams to speed up their product's innovation and monetization. 
 
@@ -45,7 +45,7 @@ Significant difference: 100% Open Source.
 
 Founded year: 2021.
 
-##### Flagsmith
+**Flagsmith**
 
 Flagsmith is an open-source feature flag & remote config service. It's mainly written in python. [License of Flagsmith](https://github.com/Flagsmith/flagsmith/blob/main/LICENSE.md).
 
@@ -57,7 +57,7 @@ Significant difference: Remote config.
 
 Founded year: 2018.
 
-##### Unleash
+**Unleash**
 
 Unleash is an open-source feature flag tool. It's mainly written in Typescript. It uses the Apache-2.0 license.
 
@@ -69,7 +69,7 @@ Significant difference: Most starred on GitHub.
 
 Founded year: 2019.
 
-##### Growthbook
+**Growthbook**
 
 Growthbook is an open-source feature flag and a/b test tool. It's mainly written in typescript. Growthbook uses the MIT license.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Advanced Progressive Delivery with Feature Flags'
-description: 'Advanced Progressive Delivery with Feature Flags'
+description: 'Feature flags enable progressive delivery whereby a feature is gradually released to a larger percentage of users to ensure that it performs as expected, enabling teams to detect problems earlier and reduce the impact of any issues'
 publishedDate: '2023-02-18'
 modifiedDate: '2023-02-18'
 cover: '/images/blogs/progressive-delivery-with-feature-flag.png'
