@@ -53,7 +53,7 @@ This library contains various features that enables teams to use flags on a mass
 
 ### Use library locally
 
-You can set up a bootstrap configuration file to define your feature flag strategies. This configuration file can be exported from the UI Portal or the API. An example of configuration file can be found at the following link: [Featbit bootstrap file](https://github.com/featbit/featbit-dotnet-sdk/blob/main/bootstrapping/tests/FeatBit.ServerSdk.Tests/Bootstrapping/featbit-bootstrap.json)
+You can set up a bootstrap configuration file to define your feature flag strategies. This configuration file can be exported from the UI Portal or the API. An example of configuration file can be found at the following link: [Featbit bootstrap file](https://github.com/featbit/featbit-dotnet-sdk/blob/main/tests/FeatBit.ServerSdk.Tests/Bootstrapping/featbit-bootstrap.json)
 
 The configuration file contains all the feature flag release strategies, including individual targeting users, custom rules, reusable segment, etc.
 
@@ -72,7 +72,7 @@ var options = new FbOptionsBuilder()
 var client = new FbClient(options);
 ```
 
-This is also called `Offline mode`, you can visit [offline-mode & Bootstrapping sections in documentation](https://github.com/featbit/featbit-dotnet-sdk/tree/main/bootstrapping#offline-mode) to get more information.
+This is also called `Offline mode`, you can visit [offline-mode & Bootstrapping sections in documentation](https://github.com/featbit/featbit-dotnet-sdk#offline-mode) to get more information.
 
 
 
