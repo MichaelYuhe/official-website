@@ -16,6 +16,9 @@ url: 'Conception-Why-companies-need-Feature-Flags-service'
 
 The use of feature flags also enables companies to release software faster as they can deploy new code in smaller increments and assess its performance. By continually releasing new features, companies can innovate faster by gaining valuable feedback from early adopters and exploring new market opportunities. Feature flags can also help companies offer personalized experiences to their customers by enabling them to selectively roll out new features to specific groups of users.   
 
+<img style="max-width:800px;width: 100%;" src="/images/blogs/feature-flag-list.png" />
+<br/>
+
 ## Benefits of Feature Flags for developers
 
 ### Reducing delivery risk

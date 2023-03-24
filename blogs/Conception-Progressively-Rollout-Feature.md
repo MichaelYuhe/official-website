@@ -34,6 +34,16 @@ Progressive rollout with feature flags also allows for quicker and more efficien
 
 One of the most significant advantages of using FeatBit for feature flagging is its ability to enable a gradual rollout of new features. This approach allows developers to test newly developed features with a small group of users before releasing them to the general public. With FeatBit, developers can limit the rollout to a certain percentage of users, allowing them to receive feedback on the new features and ensure that they are working as intended before they are deployed to a wider audience.  
 
+```javascript
+var flagValue = fbClient.variation("YOUR_FEATURE_KEY", defaultValue);
+if(flagValue === 'true'){
+    runFeature();
+}
+```
+
+
+<img style="max-width:800px;width: 100%;" src="/images/blogs/progressive-rollout.png" />
+<br/>
 
 
 Progressive Rollout is very similar to [Gradully Release](https://www.featbit.co/blogs/Conception-Gradually-Release-New-Features), and [Percentage rollout](https://www.featbit.co/blogs/Conception-Percentage-Rollout-Modern-Software-Development). You can click on each link to get more information.

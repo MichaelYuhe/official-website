@@ -43,6 +43,20 @@ To use FeatBit for gradual feature release, first, identify the features to be r
 
 Then, deploy the code with the feature flags, and start tracking the performance of each new feature released. Monitor customer feedback and analytics to see how the feature performs in real-world use. Once satisfied, gradually increase the percentage of users with access to the new feature until it reaches 100%. By using FeatBit for gradual feature release, you can monitor and test new features while reducing the risk of unforeseen errors or problems, ensuring a better user experience.
 
+Here's an example with code and UI portal.
+
+```javascript
+var flagValue = fbClient.variation("feature-flag-key", defaultValue);
+if(flagValue === 'true'){
+    runFeature();
+}
+```
+
+
+<img style="max-width:800px;width: 100%;" src="/images/blogs/gradual-release.webp" />
+<br/>
+<br/>
+
 <br/>
 
 Gradully Release is very similar to [Progressive Rollout](https://www.featbit.co/blogs/Conception-Progressively-Rollout-Feature), and [Percentage rollout](https://www.featbit.co/blogs/Conception-Percentage-Rollout-Modern-Software-Development). You can click on each link to get more information.
