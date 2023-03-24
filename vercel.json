@@ -2,14 +2,7 @@
   "redirects": [
     {
       "source": "/landing",
-      "destination": "https://aaainntjblk5jwsr.mylandingpages.co/landing",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "www.featbit.co"
-        }
-      ]
+      "destination": "https://aaainntjblk5jwsr.mylandingpages.co/landing"
     }
   ]
-}
+} 
