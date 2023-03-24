@@ -3,7 +3,7 @@ title: 'Enhance Your Deployment Strategy with Canary Release Using FeatBit'
 description: "using Canary release with FeatBit can greatly enhance your Deployment strategy. By gradually rolling out new features to a small subset of users, you can ensure that any issues or bugs are caught early on and can be addressed before a full release. This can save time, money, and prevent negative user experiences. Additionally, FeatBit's automated monitoring and rollback capabilities make the process even smoother and less risky."
 publishedDate: '2023-03-24'
 modifiedDate: '2023-03-24'
-cover: '/images/blogs/enhance-deployment-strategy-with-canary-release-using-featbit.png'
+cover: '/images/blogs/conception/enhance-deployment-strategy-with-canary-release-using-featbit.png'
 tags: [ 'Conception' ]
 authors: ['HU Beau']
 url: 'Conception-Progressively-Rollout-Feature'
