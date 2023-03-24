@@ -33,8 +33,8 @@ export default function Home() {
     <Layout>
       <section>
         <h1  className={`${styles.faceFirstLine} mt-5`}>
-          Free & Open Source
-          Feature Flagging Service
+          Free and Open Source <br/>
+          Feature Flags & Experimentation Management Service
           {/* <div className={`${styles.faceFirstLine} mt-5`}>
             Free & Open Source
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.subLine}>
-          Scalable, Great Performance, free to install FeatBit in any environment
+          Scalable, Fast, AI-LLM-Empowered, Install in Any Environment
         </div>
         <div className={styles.faceThirdLine}>
           <Alternative></Alternative>
