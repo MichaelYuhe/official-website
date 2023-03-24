@@ -1,8 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/landing",
-      "destination": "https://aaainntjblk5jwsr.mylandingpages.co/landing"
+      "source": "/landing/:slug*",
+      "destination": "https://aaainntjblk5jwsr.mylandingpages.co/landing/:slug*",
+      "query": {
+        "**": "{i.query.**}"
+      }
     }
   ]
-} 
+}
