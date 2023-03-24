@@ -38,6 +38,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://www.featbit.co/blogs/Conception-of-AB-testing-You-Should-know</loc>
+        <lastmod>2023-03-23T02:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://www.featbit.co/blogs</loc>
         <lastmod>2023-02-20T13:58:13+00:00</lastmod>
         <priority>0.64</priority>
@@ -72,4 +77,16 @@
         <lastmod>2023-03-23T05:58:13+00:00</lastmod>
         <priority>0.64</priority>
     </url>
+    <url>
+        <loc>https://www.featbit.co/blogs/Conception-Ultimate-Canary-Deployment-Tool-for-Safe-Software-Releases</loc>
+        <lastmod>2023-03-23T15:58:13+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.featbit.co/blogs/Conception-Enhance-Deployment-Strategy-Canary-Release</loc>
+        <lastmod>2023-03-24T01:58:13+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+
+    
 </urlset>

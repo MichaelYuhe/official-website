@@ -18,30 +18,16 @@ const Alternative = () => {
 
 export default function Home() {
   return (
-    <div>
-      <section>
-        <h1 className={`${styles.faceFirstLine} mt-5`}>
-          Free and Open Source <br />
-          Feature Flags & Experimentation <br /> 
-          Management Service
-        </h1>
+    <div style={{ backgroundColor: "lightgray", paddingTop: "25px", paddingBottom: "25px" }}>
 
-        <div className={styles.subLine}>
-          Scalable, Fast, AI-LLM-Empowered, Install in Any Environment
-        </div>
-        <div className={styles.faceThirdLine}>
-          <Alternative></Alternative>
-          <div>Alternative</div>
-        </div>
-        <div className={`${styles.faceFourthLine} mt-4`}>
-          <Link href="https://github.com/featbit/featbit" target="_blank" className='textLink'>
-            <button type="button" className={`btn btn-primary ${styles.githubBtn}`}>
-              <i className="bi bi-github"></i>
-              Check GitHub
-            </button>
-          </Link>
-        </div>
-      </section>
+      <div className={`${styles.faceFourthLine} mt-4`} style={{ marginTop: "0px !important" }}>
+        <Link href="https://github.com/featbit/featbit" target="_blank" className='textLink'>
+          <button type="button" className={`btn btn-primary ${styles.githubBtn}`}>
+            <i className="bi bi-github"></i>
+            Check GitHub
+          </button>
+        </Link>
+      </div>
     </div>
   )
 }

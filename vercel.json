@@ -1,8 +1,4 @@
 {
   "rewrites": [
-    {
-      "source": "/landing/:slug*",
-      "destination": "https://aaainntjblk5jwsr.mylandingpages.co/landing/:slug*"
-    }
   ]
 }
