@@ -1,5 +1,5 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/landing",
       "destination": "https://aaainntjblk5jwsr.mylandingpages.co/landing"
