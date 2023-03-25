@@ -4,7 +4,7 @@ description: "Using FeatBit as an Open Source Feature Flags Tool is a great opti
 publishedDate: '2023-03-23'
 modifiedDate: '2023-03-23'
 cover: '/images/blogs/front-feature-flag-percentage-rollout.png'
-tags: [ 'Conception' ]
+tags: [ 'Conception', 'Progressive Release'  ]
 authors: ['HU Beau']
 url: 'Conception-Why-companies-need-Feature-Flags-service'
 ---

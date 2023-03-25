@@ -4,7 +4,7 @@ description: "using Canary release with FeatBit can greatly enhance your Deploym
 publishedDate: '2023-03-24'
 modifiedDate: '2023-03-24'
 cover: '/images/blogs/conception/enhance-deployment-strategy-with-canary-release-using-featbit.png'
-tags: [ 'Conception' ]
+tags: [ 'Conception', 'Progressive Release'  ]
 authors: ['HU Beau']
 url: 'Conception-Progressively-Rollout-Feature'
 ---

@@ -4,7 +4,7 @@ description: "By utilizing FeatBit's progressive rollout capabilities, developer
 publishedDate: '2023-03-23'
 modifiedDate: '2023-03-23'
 cover: '/images/blogs/front-progressive-rollout.png'
-tags: [ 'Conception' ]
+tags: [ 'Conception', 'Progressive Release'  ]
 authors: ['HU Beau']
 url: 'Conception-Progressively-Rollout-Feature'
 ---

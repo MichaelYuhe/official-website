@@ -4,7 +4,7 @@ description: "To use FeatBit for gradual feature release, first, identify the fe
 publishedDate: '2023-03-23'
 modifiedDate: '2023-03-23'
 cover: '/images/blogs/front-gradually-release-features.png'
-tags: [ 'Conception' ]
+tags: [ 'Conception', 'Progressive Release'  ]
 authors: ['HU Beau']
 url: 'Conception-Gradually-Release-New-Features'
 ---
