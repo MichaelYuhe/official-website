@@ -100,6 +100,7 @@ While there may be instances of false positives when addressing feature flag tec
 
 ChatGPT has shown immense potential in addressing practical programming pain points, such as removing dead feature flags and enhancing developer tool onboarding. While the current performance may not be perfect, it is important to remember that we are still in the early stages of exploring the capabilities of these language models. As more data and real-world use cases become available for pre-training and fine-tuning, we can expect to see significant improvements in the accuracy and usefulness of ChatGPT in a variety of programming scenarios. This not only promises to revolutionize the way developers interact with code, but also paves the way for more accessible and efficient solutions for non-engineers. The future of ChatGPT and similar models is bright, and we eagerly anticipate the advancements they will bring to the software development landscape.
 
-For more information, please visit [FeatBit's GitHub repository](https://github.com/featbit/featbit/tree/feat/clean_useless_ff_with_llm/llm).
+For more information, please visit [FeatBit's GitHub repository](https://github.com/featbit/featbit/tree/main/llm).
+
 
 **By the way, I'm not a Python developer, it took me 30 minutes to install and grasp the basics of Python. I successfully completed my ChatGPT Python CLI program using only Copilot and ChatGPT-4.**.
