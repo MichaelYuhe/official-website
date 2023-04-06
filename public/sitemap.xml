@@ -54,8 +54,13 @@
     </url>
     <url>
         <loc>https://www.featbit.co/blogs/LLM-Introducing-FeatBit-ChatGPT-Powered-FeatureFlags-Service</loc>
-        <lastmod>2023-04-03T06:58:13+00:00</lastmod>
+        <lastmod>2023-04-05T06:58:13+00:00</lastmod>
         <priority>0.82</priority>
+    </url>
+    <url>
+        <loc>https://www.featbit.co/blogs/LLM-How-LLM-Potentially-Empower-Feature-Flags-Management</loc>
+        <lastmod>2023-04-05T06:58:13+00:00</lastmod>
+        <priority>0.78</priority>
     </url>
     <url>
         <loc>https://www.featbit.co/blogs/LLM-10-Essential-Prompts-Developer-Tool-2</loc>
