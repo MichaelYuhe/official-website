@@ -43,6 +43,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://www.featbit.co/blogs/LLM-Introducing-FeatBit-ChatGPT-Powered-FeatureFlags-Service</loc>
+        <lastmod>2023-04-05T06:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://www.featbit.co/blogs/LLM-Helps-Use-Feature-Flags-as-Prompt-Engineer</loc>
         <lastmod>2023-03-28T02:58:13+00:00</lastmod>
         <priority>0.80</priority>
@@ -53,9 +58,14 @@
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://www.featbit.co/blogs/LLM-Introducing-FeatBit-ChatGPT-Powered-FeatureFlags-Service</loc>
+        <loc>https://www.featbit.co/blogs/Harness-Power-Feature-Flag-Insights</loc>
+        <lastmod>2023-04-06T06:58:13+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.featbit.co/blogs/LLM-How-LLM-Potentially-Empower-Feature-Flags-Management</loc>
         <lastmod>2023-04-05T06:58:13+00:00</lastmod>
-        <priority>0.82</priority>
+        <priority>0.78</priority>
     </url>
     <url>
         <loc>https://www.featbit.co/blogs/LLM-How-LLM-Potentially-Empower-Feature-Flags-Management</loc>
