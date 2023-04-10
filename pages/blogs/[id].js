@@ -144,6 +144,7 @@ export default function Post({ postData }) {
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Free-and-Open-Source-Feature-Flag-Tools'>Best Free and Open Source Feature Flag Tools</a>
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Dotnet-Open-Source-Feature-Flags-Library'>.NET/C# open source feature flags library</a>
             <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/Testing-in-Production'>Testing in Production</a>
+            <a className={`${styles.featuredArticlesItem}`} href='https://www.featbit.co/blogs/LLM-Introducing-FeatBit-ChatGPT-Powered-FeatureFlags-Service'>Reduce Tech Debt - Remove Dead feature flags</a>
           </div>
         </div>
 
